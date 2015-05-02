@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+//        function demo()
+//        {
+//            var m = 10;
+//            global = m;
+//            alert(m);
+//        }
+//        demo();
+//        alert(global);
+        //有一定迷惑性，i为代码块变量
+        window.onload = function()
+        {
+            for(var i = 0;i < 5;i++)
+            {
+                //var index = i;
+//                document.getElementById("l"+i).onclick = function () {
+//                    alert(i);
+//                }
+                BindFuc(i);
+            }
+            //alert(i);
+        }
+        //alert(i);
+        function BindFuc(index)
+        {
+           var item = document.getElementById("l"+index);
+            item.onclick = function (){
+                alert(index);
+            }
+        }
+        //alert(undefined);
+        //alert(null);
+//        if(null == undefined)
+//        {
+//            alert("true");
+//        }else
+//        {
+//            alert("false");
+//        }
+        function test()
+        {
+            alert(t1);
+            var t1 = "test1";
+        }
+        //test();
+        //alert(undefined);
+        alert(null);
+    </script>
+</head>
+<body>
+<div>
+    <ul>
+        <li id="l0">0</li>
+        <li id="l1">1</li>
+        <li id="l2">2</li>
+        <li id="l3">3</li>
+        <li id="l4">4</li>
+    </ul>
+</div>
+</body>
+</html>
