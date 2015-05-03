@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="div">
+    <p id="p1">测试内容显示</p>
+</div>
+<script>
+    function addElement()
+    {
+        var div = document.getElementById('div');
+        var newEl = document.createElement('input');
+        newEl.type = 'button';
+        newEl.value = '按钮';
+        div.appendChild(newEl);
+    }
+    addElement();
+
+    function insertElement()
+    {
+        var div = document.getElementById("div");
+        var p = document.getElementById("p1");
+        var newEl = document.createElement("p");
+        newEl.innerHTML = "我是添加的p元素";
+        div.insertBefore(newEl,p);
+    }
+    insertElement();
+
+</script>
+</body>
+</html>
