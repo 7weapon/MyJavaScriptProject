@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            background-color: aquamarine;
+            width: 400px;
+
+        }
+        div>button{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="beginInterval();">开始计时</button>
+        <button onclick="stopInterval();">停止</button>
+        <p id="pContent"></p>
+    </div>
+    <div>
+        <button onclick="beginSetTimeOut();">开始计时</button>
+        <button onclick="stopSetTimeOut();">停止</button>
+        <p id="pTime"></p>
+    </div>
+<script>
+    var timeInterval = beginInterval();
+
+    function beginInterval()
+    {
+        setInterval(function(){
+            var t = new Date();
+            t= t.toLocaleTimeString();
+            document.getElementById('pContent').innerHTML = t;
+        },1000);
+    }
+
+    function stopInterval()
+    {
+        clearInterval(timeInterval);
+    }
+
+    var timeOut;
+    function beginSetTimeOut()
+    {
+        timeOut = beginSetTimeOut;
+        setTimeout(function(){
+            document.getElementById('pTime').innerText = '3s后执行';
+        },3000);
+    }
+
+    function stopSetTimeOut()
+    {
+        clearTimeout(timeOut);
+    }
+</script>
+</body>
+</html>

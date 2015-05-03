@@ -29,6 +29,21 @@
     }
     insertElement();
 
+    ///获取当前document尺寸（不包括scrollBar）
+    function GetSize()
+    {
+        var w = document.body.offsetWidth || document.documentElement.offsetWidth;
+        var h = document.body.offsetHeight || document.documentElement.offsetHeight;
+        alert('w:'+w+',h:'+h);
+    }
+    //GetSize();
+
+    //获取当前窗口的尺寸
+    function GetWindowSize()
+    {
+       document.write('w:'+window.innerWidth+',h:'+window.innerHeight);
+    }
+    GetWindowSize();
 </script>
 </body>
 </html>
