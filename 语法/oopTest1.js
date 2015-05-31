@@ -12,7 +12,7 @@
               alert(this._name+'  '+this._sex);
           }
      };
-    //½«ÀàµÄ½Ó¿Ú¿ª·Å
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     window.Person = Person;
 }());
 
@@ -22,10 +22,10 @@
         this._name = name;
         this._sex = sex;
     }
-    //student¼Ì³ÐPerson
+    //studentï¿½ï¿½ï¿½ï¿½Person
     Student.prototype = new Person();
     var superSay = Student.prototype.say;
-    //¶Ôsay·½·¨ÖØÐ´
+    //ï¿½ï¿½sayï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     Student.prototype.say = function(){
         superSay.call(this);
         alert('override');
