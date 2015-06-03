@@ -11,5 +11,5 @@ var t4 = typeof (undefined);
 console.log(t4);//undefined类型
 var t5 = typeof (null);
 console.log(t5);//object类型
-var result = NaN == NaN;
+var result = NaN === NaN;
 console.log(result);
