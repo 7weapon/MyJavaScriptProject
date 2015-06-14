@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8ce12c1-37f4-415f-a9e6-9bd500b997ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/语法/Closure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/语法/utility.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/common/base_market.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/common/dealer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/css/griddy-min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/an01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/an02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/bj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/bm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/car01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/car02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/car03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/car04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/car05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/fangan.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/hd01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/hd02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/hd03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/header01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/header02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/jxs-bt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/p3-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/p3-11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/p3-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/p3-22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/p3-3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/p3-33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/p3-4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/p3-44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/tu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/video.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/images/video.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/index.shtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/js/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/js/jquery.mCustomScrollbar.concat.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/lib/backbone-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/lib/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/lib/underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/game/flip-block/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/game/flip-block/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/map/images/tail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/map/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/map/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/menu/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/page/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/panel/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/slider/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/slider/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/video/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/video/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/module/view/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/plugin/bpopup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/plugin/marquee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/plugin/transit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/sea-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/sea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/bmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/swf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/tool/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/zoe/zoe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yiche/0603大客户传祺web/传祺经销商整理0609修改版(1).xlsx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="MyJavaScriptProject.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MyJavaScriptProject" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="utility.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/语法/utility.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3586098">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chan" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/语法/Closure.js" />
+        <option value="$PROJECT_DIR$/斯巴鲁-mobil-易车/common/base_market.js" />
+        <option value="$PROJECT_DIR$/斯巴鲁-mobil-易车/index.shtml" />
+        <option value="$PROJECT_DIR$/151208jxsvw/index.shtml" />
+        <option value="$PROJECT_DIR$/151208jxsvw/common/base_market.js" />
+        <option value="$PROJECT_DIR$/151209roewe/index.shtml" />
+        <option value="$PROJECT_DIR$/151209roewe/common/base_market.js" />
+        <option value="$PROJECT_DIR$/语法/utility.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="51" />
+    <option name="y" value="23" />
+    <option name="width" value="1228" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="语法" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/151209roewe" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/151208jxsvw" />
+      <recent name="$PROJECT_DIR$/斯巴鲁-mobil-易车" />
+      <recent name="$PROJECT_DIR$/yiche" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.shtml (1)">
+    <configuration default="false" name="index.shtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyJavaScriptProject/yiche/0603 大客户 传祺 web/index.shtml">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.shtml (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyJavaScriptProject/斯巴鲁-mobil-易车/index.shtml">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.shtml" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.shtml (1)" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.shtml (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.shtml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8ce12c1-37f4-415f-a9e6-9bd500b997ab" name="Default" comment="" />
+      <created>1433057330468</created>
+      <option name="number" value="Default" />
+      <updated>1433057330468</updated>
+    </task>
+    <task id="LOCAL-00001" summary="audiLogin">
+      <created>1433057476578</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1433057476578</updated>
+    </task>
+    <task id="LOCAL-00002" summary="xx">
+      <created>1433066030118</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1433066030118</updated>
+    </task>
+    <task id="LOCAL-00003" summary="webstorm 10&#10;">
+      <created>1434268575044</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1434268575044</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="51" y="23" width="1228" height="777" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24855012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39939487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="audiLogin" />
+    <MESSAGE value="audiLogin1" />
+    <MESSAGE value="xx" />
+    <MESSAGE value="webstorm 10&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="webstorm 10&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/语法/utility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/语法/Closure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5086888">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/语法/utility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3586098">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
