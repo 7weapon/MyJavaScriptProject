@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Context 练习</title>
+    <script>
+        var x = 1;
+        var f = function()
+        {
+            console.log(this.x);
+        }
+        f();
+
+        var ff = function()
+        {
+           // this.x = 2;
+            console.log(this.x);
+        }
+
+        ff();
+
+        console.log(this.x);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
