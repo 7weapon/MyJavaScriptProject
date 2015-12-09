@@ -1,6 +1,9 @@
 /**
  * Created by Fluky on 2015/5/3.
  */
+/**
+ * 该方法返回一个对象
+ */
 (function(){
    function Person(name)
    {

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var name = 'global';
+
+       var oo = {
+           name : "oo",
+           getName:function()
+           {
+               return function () {
+                   console.log(this.name);
+               }
+           }
+       };
+        oo.getName()();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

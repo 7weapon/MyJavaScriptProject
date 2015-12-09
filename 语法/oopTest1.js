@@ -1,6 +1,9 @@
 /**
  * Created by Fluky on 2015/5/3.
  */
+/**
+ * 这种该方法 更符合oop的原则对 对原型进行操作
+ */
 (function(){
      function Person(name,sex)
      {

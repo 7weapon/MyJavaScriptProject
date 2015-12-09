@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+       <div id="out"> out
+           <div id="innerP"> innerP
+               <div id="innerChild">innerChild</div>
+           </div>
+       </div>
+<div id="divShow"></div>
+<script>
+    var out = document.getElementById('out');
+    var innerP = document.getElementById('innerP');
+    var innerChild = document.getElementById('innerChild');
+    var divShow = document.getElementById('divShow');
+
+    out.addEventListener('click',function(){
+            divShow.innerHTML +='out'+'<br />';
+    },true);
+    innerP.addEventListener('click',function(){
+        divShow.innerHTML +='innerP'+'<br />';
+    },true);
+    innerChild.addEventListener('click',function(){
+        divShow.innerHTML +='innerChild'+'<br />';
+    },true);
+</script>
+</body>
+</html>
