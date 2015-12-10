@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闭包</title>
+</head>
+<body>
+<a href='#'> 第一个链接 </a> </br>
+<a href='#'> 第二个链接 </a> </br>
+<a href='#'> 第三个链接 </a> </br>
+<a href='#'> 第四个链接 </a> </br>
+<script>
+    var list = document.links;
+    for (var i = 0; i < list.length; i++) {
+        list[i].index = i;
+        list[i].onclick = function () {
+            alert(this.index);
+        }
+    }
+    /* for(var i =0; i <list.length;i++)
+     {
+     (function(i){
+     list[i].onclick = function(){
+     alert(i);
+     }
+     })(i);
+     }*/
+
+    function JSClass() {
+        this.m_Text = 'divison element';
+        this.m_Element = document.createElement('div');
+        this.m_Element.innerHTML = this.m_Text;
+        this.m_Element.addEventListener('click', this.func);
+    }
+
+    JSClass.prototype.Render = function () {
+        document.body.appendChild(this.m_Element);
+    }
+
+    JSClass.prototype.func = function () {
+        alert(this.m_Text);
+    }
+
+    var jc = new JSClass();
+    jc.Render();
+    jc.func() ;
+</script>
+</body>
+</html>
