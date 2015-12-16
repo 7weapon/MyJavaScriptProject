@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+
+    </script>
+</head>
+<body>
+<div>
+	<ul id="menu">
+		<li><a href="menu1.html">menu #1</a></li>
+		<li><a href="menu2.html">menu #2</a></li>
+		<li><a href="menu3.html">menu #3</a></li>
+	</ul>
+</div>
+<script>
+    document.querySelector('#menu').onclick = function (e){
+        e = e || window.event;
+        var target = e.target || e.srcElement;
+
+        var pageid,hrefparts;
+        if(target.nodeName != 'A')    //只关心a标签的点击事件
+        {
+            return ;
+        }
+
+        hrefparts = target.href.split('/');
+        pageid = hrefparts[hrefparts.length-1];
+        pageid = pageid.replace('.html','');
+
+
+        if(typeof e.preventDefault == 'function')
+        {
+            e.preventDefault();
+            e.stopPropagation();
+        } else
+        {
+            e.returnValue = false;
+            e.cancelBubble = false;
+        }
+
+        alert(pageid);
+    };
+</script>
+</body>
+</html>

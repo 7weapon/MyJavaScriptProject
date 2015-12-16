@@ -11,20 +11,19 @@
 <a href='#'> 第四个链接 </a> </br>
 <script>
     var list = document.links;
-    for (var i = 0; i < list.length; i++) {
-        list[i].index = i;
-        list[i].onclick = function () {
-            alert(this.index);
-        }
-    }
-    /* for(var i =0; i <list.length;i++)
-     {
-     (function(i){
-     list[i].onclick = function(){
-     alert(i);
+    /*for (var i = 0; i < list.length; i++) {
+     list[i].index = i;
+     list[i].onclick = function () {
+     alert(this.index);
      }
-     })(i);
      }*/
+    for (var i = 0; i < list.length; i++) {
+        (function (i) {
+            list[i].onclick = function () {
+                alert(i);
+            }
+        })(i);
+    }
 
     function JSClass() {
         this.m_Text = 'divison element';
@@ -43,7 +42,7 @@
 
     var jc = new JSClass();
     jc.Render();
-    jc.func() ;
+    jc.func();
 </script>
 </body>
 </html>
