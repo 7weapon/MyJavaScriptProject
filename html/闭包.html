@@ -29,6 +29,7 @@
         this.m_Text = 'divison element';
         this.m_Element = document.createElement('div');
         this.m_Element.innerHTML = this.m_Text;
+        this.m_Element.m_Text = this.m_Text;
         this.m_Element.addEventListener('click', this.func);
     }
 
