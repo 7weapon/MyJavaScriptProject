@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ce12c1-37f4-415f-a9e6-9bd500b997ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/promise/PromiseThen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/promise/mixed-onready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/promise/onready-as-promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/promise/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MyJavaScriptProject.iml" afterPath="$PROJECT_DIR$/.idea/MyJavaScriptProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/pipFunc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/promise/promise-all-timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/promise/promise-catch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/promise/promise-race-timer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/promise/xhr-promise.js" afterPath="$PROJECT_DIR$/es6/promise/xhr-promise.js" />
     </list>
     <ignored path="MyJavaScriptProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +31,17 @@
         <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding />
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <marker date="1453099592398" expanded="true" signature="82:550" placeholder="{...}" />
+                <marker date="1453099592398" expanded="true" signature="134:546" placeholder="{...}" />
+                <marker date="1453099592398" expanded="true" signature="245:424" placeholder="{...}" />
+                <marker date="1453099592398" expanded="true" signature="282:340" placeholder="{...}" />
+                <marker date="1453099592398" expanded="true" signature="346:414" placeholder="{...}" />
+                <marker date="1453099592398" expanded="true" signature="460:520" placeholder="{...}" />
+                <marker date="1453099592398" expanded="true" signature="617:643" placeholder="{...}" />
+                <marker date="1453099592398" expanded="true" signature="664:689" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -52,47 +58,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mixed-onready.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/promise/mixed-onready.js">
+      <file leaf-file-name="promise-all-timer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/promise/promise-all-timer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="41" />
+              <caret line="20" column="10" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
               <folding>
-                <element signature="e#0#42#0" expanded="false" />
+                <element signature="e#0#44#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/promise/test.html">
+      <file leaf-file-name="promise-race-timer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/promise/promise-race-timer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.551724">
-              <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PromiseThen.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/es6/promise/PromiseThen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29891303">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#0#42#0" expanded="false" />
+                <element signature="e#0#44#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="onready-as-promise.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/promise/onready-as-promise.js">
+      <file leaf-file-name="promise-catch.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es6/promise/promise-catch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.37096775">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
-                <element signature="e#0#42#0" expanded="false" />
+                <element signature="e#0#44#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,7 +99,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -135,13 +130,12 @@
         <option value="$PROJECT_DIR$/emmet/dealer.js" />
         <option value="$PROJECT_DIR$/emmet/ruimai/common/base_market.js" />
         <option value="$PROJECT_DIR$/emmet/hashTable.js" />
+        <option value="$PROJECT_DIR$/es6/promise/xhr-promise.js" />
         <option value="internal/util.js" />
         <option value="$PROJECT_DIR$/es6/promise/thenable.js" />
-        <option value="$PROJECT_DIR$/es6/promise/xhr-promise.js" />
-        <option value="$PROJECT_DIR$/es6/promise/mixed-onready.js" />
-        <option value="$PROJECT_DIR$/es6/promise/onready-as-promise.js" />
-        <option value="$PROJECT_DIR$/es6/promise/test.html" />
-        <option value="$PROJECT_DIR$/es6/promise/PromiseThen.js" />
+        <option value="$PROJECT_DIR$/es6/promise/promise-all-timer.js" />
+        <option value="$PROJECT_DIR$/es6/promise/promise-race-timer.js" />
+        <option value="$PROJECT_DIR$/es6/promise/promise-catch.js" />
       </list>
     </option>
   </component>
@@ -151,10 +145,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="111" />
-    <option name="y" value="52" />
-    <option name="width" value="1228" />
-    <option name="height" value="716" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -221,6 +214,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +228,6 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -245,20 +238,137 @@
       <recent name="$PROJECT_DIR$/斯巴鲁-mobil-易车" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.PromiseThen.js">
-    <configuration default="false" name="hashTable.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="hashTable.js" working-dir="$PROJECT_DIR$/emmet">
-      <method />
-    </configuration>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/MyJavaScriptProject.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/jsLibraryMappings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/xhr-promise.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/PromiseThen.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/mixed-onready.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/onready-as-promise.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/test.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Node.js.promise-catch.js">
     <configuration default="false" name="xhr-promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="xhr-promise.js" working-dir="$PROJECT_DIR$/es6/promise">
       <method />
     </configuration>
-    <configuration default="false" name="thenable.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="thenable.js" working-dir="$PROJECT_DIR$/es6/promise">
+    <configuration default="false" name="thenable.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="thenable.js" working-dir="$PROJECT_DIR$/es6/promise">
       <method />
     </configuration>
-    <configuration default="false" name="mixed-onready.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="mixed-onready.js" working-dir="$PROJECT_DIR$/es6/promise">
+    <configuration default="false" name="promise-all-timer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="promise-all-timer.js" working-dir="$PROJECT_DIR$/es6/promise">
       <method />
     </configuration>
-    <configuration default="false" name="PromiseThen.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="PromiseThen.js" working-dir="$PROJECT_DIR$/es6/promise">
+    <configuration default="false" name="promise-race-timer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="promise-race-timer.js" working-dir="$PROJECT_DIR$/es6/promise">
+      <method />
+    </configuration>
+    <configuration default="false" name="promise-catch.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="promise-catch.js" working-dir="$PROJECT_DIR$/es6/promise">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -311,19 +421,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.hashTable.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.xhr-promise.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.thenable.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.mixed-onready.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.PromiseThen.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.xhr-promise.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.thenable.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.promise-all-timer.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.promise-race-timer.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.promise-catch.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.PromiseThen.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.mixed-onready.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.thenable.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.xhr-promise.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.hashTable.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.promise-catch.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.promise-race-timer.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.promise-all-timer.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.thenable.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.xhr-promise.js" />
       </list>
     </recent_temporary>
   </component>
@@ -372,14 +482,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="52" width="1228" height="716" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24813278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32605043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -392,7 +503,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -428,7 +538,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1453099592398" expanded="true" signature="82:550" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="134:546" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="245:424" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="282:340" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="346:414" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="460:520" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="617:643" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="664:689" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <marker date="1453099592398" expanded="true" signature="82:550" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="134:546" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="245:424" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="282:340" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="346:414" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="460:520" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="617:643" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="664:689" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -526,12 +672,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/mixed-onready.js">
+    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="41" />
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
+            <marker date="1453099592398" expanded="true" signature="82:550" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="134:546" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="245:424" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="282:340" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="346:414" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="460:520" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="617:643" placeholder="{...}" />
+            <marker date="1453099592398" expanded="true" signature="664:689" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -539,53 +692,39 @@
     <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
+    <entry file="file://$PROJECT_DIR$/es6/promise/promise-all-timer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33274022">
-          <caret line="631" column="25" selection-start-line="631" selection-start-column="17" selection-end-line="631" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/onready-as-promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <caret line="20" column="10" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/test.html">
+    <entry file="file://$PROJECT_DIR$/es6/promise/promise-race-timer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.551724">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/PromiseThen.js">
+    <entry file="file://$PROJECT_DIR$/es6/promise/promise-catch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29891303">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.37096775">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
