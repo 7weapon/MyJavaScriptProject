@@ -1,0 +1,21 @@
+/**
+ * Created by chenkai3 on 1/18/16.
+ */
+'use strict';
+function onReadyPromise() {
+    return new Promise(function (resolve, reject) {
+        var readyState = document.readyState;
+        if (readyState === 'interactive' || readyState === 'complete') {
+            resolve();
+        } else {
+            window.addEventListener('DOMContentLoaded', resolve);
+        }
+
+    })
+}
+
+onReadyPromise().then(function () {
+    console.log('DOM fully loaded and parsed');
+})
+
+console.log('========starting======');

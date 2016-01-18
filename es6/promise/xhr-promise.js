@@ -21,7 +21,7 @@ function getUrl(url) {
     });
 }
 
-var url = 'http://www.baidu.com/';
+var url = 'http://www.baidu.com';
 getUrl(url).then(function(data){
     console.log(data);
 }).catch(function(err){
