@@ -9,4 +9,4 @@ var promise = Promise.resolve($.ajax(url));
 
 promise.then(function(data){
     console.log(data);
-})
+});

@@ -1,0 +1,74 @@
+/*  common.css是用于保存一些常用的样式，
+    如果你需要在html中使用这些样式
+    直接在标签class属性上添加样式对应的名称即可
+
+    例如你需要清除浮动
+
+    <div class="cfx">
+        ...
+    </div>
+*/
+
+/*.cfx 清除浮动.row 分行结构*/
+.cfx, .row{+zoom:1;}
+.cfx:after, .row:after{content:""; display:block; height:0;line-height:0;overflow:hidden; clear:both;font-size:0;visibility:hidden;}
+
+/* .hide 隐藏元素*/
+.hide{display:none;}
+
+/*.hitx 隐藏文字*/
+.hitx{text-indent:-9999em;}
+
+/*.ac 自动居中*/
+.ac{margin-left:auto; margin-right:auto;}
+
+/*.ac-1000 自动居中，并且设置宽度为1000px*/
+.ac-1000{width:1000px; margin:0 auto;}
+.ac-1200{width:1200px; margin:0 auto;}
+.ac-1600{width:1600px; margin:0 auto;}
+
+/*.f-msyh 字体设置成微软雅黑*/
+.f-msyh{font-family:Arial "Microsoft YaHei" sans-serif;}
+
+/*input报名 鼠标经过变色*/
+.input_on{border:1px solid #999; background-color:#FFFFCC;}
+.input_off{border:1px solid #CCC; background-color:#FFF;}
+.input_move{border:1px solid #999; background-color:#FFFFCC;}
+.input_out{/*height:16px;默认高度*/ border:1px solid #CCC; background-color:#FFF;}
+.input_out:focus{border:1px solid #999; background-color:#FFFFCC;}
+.input_out:hover{border:1px solid #999; background-color:#FFFFCC;}
+
+.input{width:161px;height:31px;}
+.select{width:163px;height:33px;}
+
+/*报名按钮*/
+input.an1{width:229px; height:61px; overflow:hidden; margin:0; border:0; background:transparent url(../images/btn.png) no-repeat left bottom; cursor:pointer;}
+input.an1:hover{background-position:right bottom;}/*按钮上下排版，如果是左右排版，改成right top*/
+
+/*jxs经销商鼠标经过变色 table版*/
+.jxs tr:hover{background:#efe6e0;}
+.jxs td{border-bottom:1px dashed #CCC; line-height:36px;}
+
+/*头尾样式*/
+.title{width:0; height:0; overflow:hidden}
+.header_yc{width:100%; height:40px; font-size:12px;}
+.footer_yc{width:100%; font-size:12px; background-color:#FFF;}
+
+/*.footer 页脚的样式，已经添加到模板内*/
+.footer{color:#767676;font-size:13px;background-color:#f5f3f5;width:100%;}
+.footer p{line-height:30px;}
+.footer .footer_title{padding-left:10px; float:left;}
+.footer .footer_copywriting{padding-right:10px; float:right;}
+.footer .footer_copywriting span{padding-left:10px;}
+.foot-box{font-size:12px;}
+a{color:#333; text-decoration:none;}
+a:hover{color:#343434; text-decoration:underline;}
+/* 回到顶部 */
+.actGotop{position:fixed; _position:absolute; bottom:100px; right:50px; width:55px; height:55px; z-index:200; display:none;}
+.actGotop a,.actGotop a:link{width:55px;height:55px;display:inline-block; background:url(../images/gotop.gif) no-repeat; }
+/*.fx-200 200毫秒的过渡（快速过渡）*/
+.fx-200 {-webkit-transition: all 200ms ease;-moz-transition: all 200ms ease;-ms-transition: all 200ms ease;-o-transition: all 200ms ease;transition: all 200ms ease;}
+/* .f-500 500毫秒的过渡（标准过渡）*/
+.fx-500 {-webkit-transition: all 500ms ease;-moz-transition: all 500ms ease; -ms-transition: all 500ms ease;-o-transition: all 500ms ease;transition: all 500ms ease;}
+/*.fx-800 800毫秒的过渡（慢速过渡）*/
+.fx-800 {-webkit-transition: all 800ms ease;-moz-transition: all 800ms ease;-ms-transition: all 800ms ease;-o-transition: all 800ms ease;transition: all 800ms ease;}
