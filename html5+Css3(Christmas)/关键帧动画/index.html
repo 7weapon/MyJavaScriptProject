@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圣诞主题</title>
+    <style>
+        .bird {
+            min-width: 91px;
+            min-height: 71px;
+            top: 10%;
+            right: 0;
+            position: absolute;
+            z-index: 10;
+            background: url("bird.png");
+            background-size: 300% 100%;
+        }
+
+        .birdFly {
+            animation: bird-slow 400ms steps(1, start) infinite;
+            -moz-animation-name: bird-slow;
+            -webkit-animation-duration: 400ms;
+            -webkit-animation-timing-function: steps(3); /*关键帧变化*/
+            -webkit-animation-iteration-count: infinite; /*循环次数*/
+        }
+
+        @-webkit-keyframes bird-slow {
+            0% {
+                background-position: -0% 0%;
+            }
+            100% {
+                background-position: -300% 0%;
+            }
+        }
+
+        @-moz-keyframes bird-slow {
+            0% {
+                background-position: -0% 0%;
+            }
+            50% {
+                background-position: -100% 0%;
+            }
+            75% {
+                background-position: -200% 0%;
+            }
+            100% {
+                background-position: -300% 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="bird birdFly"></div>
+<button>点击运动</button>
+</body>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery-transit/0.9.12/jquery.transit.js"></script>
+<script>
+    $('button').bind('click',function(){
+        $(".bird").transition({
+            'right': "3rem",
+        }, 10000,'linear',function(){
+            alert("结束")
+        });
+    })
+</script>
+<script>
+    var docEl = document.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                docEl.style.fontSize = 20 * (docEl.clientWidth / 320) + 'px';
+            };
+    //绑定浏览器缩放与加载事件
+    window.addEventListener(resizeEvt, recalc, false);
+    document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+</html>
