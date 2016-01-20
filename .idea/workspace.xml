@@ -1,71 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="c8ce12c1-37f4-415f-a9e6-9bd500b997ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/an1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/formbox.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/gotop.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/headerimg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/headerimg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/p1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/p2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/p3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/p4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/p5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/tu/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/tu/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/tu/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/tu/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/tu/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/tu/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/images/tu/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/map/images/tail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/common/base_market.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/common/dealer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/js/jquery.mCustomScrollbar.concat.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/lib/backbone-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/lib/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/lib/underscore-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/game/flip-block/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/game/flip-block/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/map/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/map/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/menu/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/page/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/panel/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/slider/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/slider/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/video/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/video/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/module/view/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/plugin/bpopup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/plugin/marquee.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/plugin/transit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/sea-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/sea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/bmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/swf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/tool/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emmet/ruimai/zoe/zoe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    <list default="true" id="c8ce12c1-37f4-415f-a9e6-9bd500b997ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Canvas/img-lg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Canvas/img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Canvas/scale.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Canvas/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/promise/thenable.js" afterPath="$PROJECT_DIR$/es6/promise/thenable.js" />
     </list>
     <ignored path="MyJavaScriptProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,12 +37,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thenable.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="thenable.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21870047">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Canvas/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.7">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scale.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Canvas/scale.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7271215">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,6 +80,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -145,6 +114,8 @@
         <option value="$PROJECT_DIR$/es6/promise/xhr-promise.js" />
         <option value="internal/util.js" />
         <option value="$PROJECT_DIR$/es6/promise/thenable.js" />
+        <option value="$PROJECT_DIR$/Canvas/test.html" />
+        <option value="$PROJECT_DIR$/Canvas/scale.html" />
       </list>
     </option>
   </component>
@@ -185,6 +156,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,17 +189,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="es6" />
+              <option name="myItemId" value="html5+Css3(Christmas)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="promise" />
+              <option name="myItemId" value="Canvas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,145 +222,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Canvas" />
       <recent name="$PROJECT_DIR$/emmet" />
       <recent name="$PROJECT_DIR$/151209roewe" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/151208jxsvw" />
-      <recent name="$PROJECT_DIR$/斯巴鲁-mobil-易车" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/MyJavaScriptProject.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/jsLibraryMappings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/xhr-promise.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/语法/str2str.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/语法/this.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/emmet/Fibonacci.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/emmet/bibaoTest.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/emmet/bindTest.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/emmet/callee.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/emmet/chainTest.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/emmet/lazyInstance.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/emmet/pipFunc.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/PromiseThen.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/mixed-onready.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/onready-as-promise.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/promise-all-timer.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/promise-catch.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/promise-race-timer.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/es6/promise/test.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/index.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Node.js.thenable.js">
     <configuration default="false" name="index.shtml (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyJavaScriptProject/斯巴鲁-mobil-易车/index.shtml">
@@ -511,20 +363,28 @@
       <option name="project" value="LOCAL" />
       <updated>1453045719410</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="promise">
+      <created>1453131227251</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1453131227251</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1228" height="777" extended-state="6" />
+    <frame x="52" y="23" width="1228" height="777" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24855012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -532,12 +392,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -568,6 +426,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -687,17 +577,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.773494">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21870047">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canvas/img.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canvas/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canvas/img-lg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canvas/scale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7271215">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

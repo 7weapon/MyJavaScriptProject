@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放大</title>
+</head>
+<body style="background-color: black;">
+<canvas id="cvs" style="display: block; margin: 0 auto; border: 1px solid #aaa;">您的浏览器不支持Canvas</canvas>
+<canvas id="water-mark-cvs" style="display: block; margin: 20px auto; border: 1px solid #aaa;">您的浏览器不支持Canvas</canvas>
+<input type="range" id="rang-scale" min="0.5" max="3.0" step="0.1" value="1.0"
+       style="display: block;margin: 20px auto;width: 400px;">
+</body>
+<script>
+    var cvs = document.getElementById('cvs');
+    var watermarkCvs = document.getElementById('water-mark-cvs');
+    var ctx = cvs.getContext('2d');
+    var watermarkCtx = watermarkCvs.getContext('2d');
+    var img = new Image();
+    var slider = document.getElementById('rang-scale');
+    window.onload = function () {
+        cvs.width = 1100;
+        cvs.height = 500;
+        img.src = './img-lg.jpg';
+        var scale = slider.value;
+        img.onload = function () {
+            drawImageByScale(scale);
+            slider.onmousemove = function () {
+                scale = slider.value;
+                drawImageByScale(scale);
+            }
+        }
+
+        watermarkCvs.width = 600;
+        watermarkCvs.height = 100;
+        watermarkCtx.font = 'bold 30px Arial';
+        watermarkCtx.lineWidth = '1';
+        watermarkCtx.fillStyle = 'rgba(255,255,255,0.5)';
+        watermarkCtx.textBaseline = 'middle';
+        watermarkCtx.fillText('== capricornchen@icloud.com ==', 20, 50);
+
+    }
+
+    function drawImageByScale(scale) {
+        var imgWidth = 1100 * scale;
+        var imgHeight = 500 * scale;
+
+        var sx = cvs.width / 2 - imgWidth / 2;
+        var sy = cvs.height / 2 - imgHeight / 2;
+
+        ctx.clearRect(0, 0, cvs.width, cvs.height);
+
+        ctx.drawImage(img, sx, sy, imgWidth, imgHeight);
+        ctx.drawImage(watermarkCvs, cvs.width - watermarkCvs.width, cvs.height - watermarkCvs.height);
+    }
+</script>
+</html>
