@@ -14,24 +14,55 @@
     background-size: 100% 100%;
 }
 
-.container .page-a{
-    width:100%;
-    height:100%;
-    background:url('../images/a/page-a-bg.png') ;
+
+
+.container .page-b {
+    width: 100%;
+    height: 100%;
+    background: url('../images/b/page-b-bg.png');
     position: absolute;
-    z-index: 5;
+    z-index: 4;
 }
-.container .page-b{
-    width:100%;
-    height:100%;
-    background:url('../images/b/page-b-bg.png') ;
+
+.container .page-c {
+    width: 100%;
+    height: 100%;
+    background: url('../images/c/page-c-bg.png');
     position: absolute;
-    z-index: 5;
+    z-index: 3;
 }
-.container .page-c{
-    width:100%;
-    height:100%;
-    background:url('../images/c/page-c-bg.png') ;
-    position: absolute;
-    z-index: 5;
+
+/**
+  *镜头切换
+ */
+.effect-out {
+    animation: effectOut 8s ease-in-out forwards;
+    transform-origin: 71% 72%;
+}
+
+.effect-in {
+    z-index: 15 !important;
+    display: block;
+    opacity: 0;
+    animation: effectIn 5s ease-in-out forwards;
+    transform-origin: 58.5% 73.5%;
+    transform: scale(8);
+}
+
+@keyframes effectOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        transform: scale(20);
+        opacity: 0;
+    }
+}
+
+@keyframes effectIn {
+    100% {
+        transform: scale(1);
+        opacity: 1
+    }
+
 }
