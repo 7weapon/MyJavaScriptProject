@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+</head>
+<body>
+<canvas id="cvs" style="display: block;margin: 0 auto;border: 1px solid #aaa">
+    您的浏览器不支持Canvas
+</canvas>
+</body>
+<script>
+    var docEl = document.documentElement;
+    var cvs = document.querySelector('#cvs');
+    var ctx = cvs.getContext('2d');
+    var img = new Image();
+
+    window.addEventListener('load', function () {
+        cvs.width = 400;
+        cvs.height = 400;
+//        ctx.fillStyle = 'red';
+//        ctx.fillRect(100,100,400,400);
+        img.src = './img.jpg';
+        img.onload = function () {
+//            ctx.drawImage(img, 10, 10);
+//            ctx.drawImage(img, 0, 0, cvs.width, cvs.height);
+            ctx.drawImage(img,400,400,200,200,0,0,cvs.width,cvs.height);
+        }
+
+    }, false);
+</script>
+</html>
