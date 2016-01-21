@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ce12c1-37f4-415f-a9e6-9bd500b997ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/boy-sleigh-car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/page-a-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/page-a-window-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/trees.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-bottom-shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/boy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/cat-book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/girl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/page-b-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/deer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/page-c-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/window-close-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/window-scene-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/1.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/2.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/3.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/music/circulation.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/music/scene.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/关键帧动画/bird.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/3D变换/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/SVG/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/关键帧动画/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/观察者模式/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/观察者模式/observer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html5+Css3(Christmas)/index.html" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/自使用rem布局/index.html" />
     </list>
     <ignored path="MyJavaScriptProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-7.6666665">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -72,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21455224">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.42910448">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -83,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/3D变换/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-25.3">
-              <caret line="39" column="50" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -226,46 +190,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyJavaScriptProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyJavaScriptProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5+Css3(Christmas)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyJavaScriptProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyJavaScriptProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5+Css3(Christmas)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -298,6 +222,119 @@
       <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\WorkSpace" />
       <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\自使用rem布局" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Canvas/img-lg.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Canvas/img.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Canvas/scale.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Canvas/test.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Node.js.promise-catch.js">
     <configuration default="false" name="xhr-promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="xhr-promise.js" working-dir="$PROJECT_DIR$/es6/promise">
@@ -434,15 +471,22 @@
       <option name="project" value="LOCAL" />
       <updated>1453109925843</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="workSpace">
+      <created>1453212071148</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1453212071148</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32605043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -453,7 +497,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -484,7 +527,8 @@
     <MESSAGE value="inherit继承" />
     <MESSAGE value="promise-all,race" />
     <MESSAGE value="Christmas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Christmas" />
+    <MESSAGE value="workSpace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workSpace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -809,7 +853,7 @@
     <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.6666665">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -817,15 +861,15 @@
     <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/3D变换/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.3">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21455224">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.42910448">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
