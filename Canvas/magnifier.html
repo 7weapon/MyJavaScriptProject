@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放大镜</title>
+</head>
+<body>
+<canvas id="cvs" style="display: block;margin: 0 auto;border: 1px solid #aaa">
+    您的浏览器不支持Canvas
+</canvas>
+<canvas id="offcvs" style="display: none;"></canvas>
+</body>
+<script>
+    var cvs = document.querySelector('#cvs');
+    var ctx = cvs.getContext('2d');
+
+    var offcvs = document.querySelector('#offcvs');
+    var offctx = offcvs.getContext('2d');
+
+    var img = new Image();
+    var isMouseDown = false, scale;
+
+    window.addEventListener('load', function () {
+        cvs.width = 1170;
+        cvs.height = 768;
+        img.src = './img-lg.jpg';
+        img.onload = function () {
+            offcvs.width = img.width;
+            offcvs.height = img.height;
+            scale = offcvs.width / cvs.width;//比例
+
+            ctx.drawImage(img, 0, 0, cvs.width, cvs.height);
+            offctx.drawImage(img, 0, 0);
+
+        }
+
+        cvs.onmousedown = function (e) {
+            e.preventDefault();
+            isMouseDown = true;
+            var point = windowToCanvas(e.clientX, e.clientY);
+//            console.log(point.x, point.y);
+            drawCanvasWithMagnifier(true, point);
+        }
+
+        cvs.onmouseup = function (e) {
+            e.preventDefault();
+            isMouseDown = false;
+            drawCanvasWithMagnifier(false);
+        }
+
+        cvs.onmousemove = function (e) {
+            e.preventDefault();
+            if (isMouseDown) {
+                var point = windowToCanvas(e.clientX, e.clientY);
+//                console.log(point.x, point.y);
+                drawCanvasWithMagnifier(true, point);
+
+            }
+        }
+        cvs.onmouseout = function (e) {
+            e.preventDefault();
+            isMouseDown = false;
+            drawCanvasWithMagnifier(false);
+        }
+
+    }, false);
+
+    /**
+     * 获取canvas上的原点位置
+     * @param x
+     * @param y
+     */
+    function windowToCanvas(x, y) {
+        var bbox = cvs.getBoundingClientRect();
+//        console.log(bbox);
+        return {x: x - bbox.left, y: y - bbox.top};
+    }
+
+    /**
+     *  画布点击 事件
+     * @param isShowMagnifier bool
+     * @param point          当前画布坐标
+     */
+    function drawCanvasWithMagnifier(isShowMagnifier, point) {
+        ctx.clearRect(0, 0, cvs.width, cvs.height);
+        ctx.drawImage(img, 0, 0, cvs.width, cvs.height);
+        if (isShowMagnifier) {
+            drawImage(point);
+        }
+    }
+
+    /**
+     * 制作放大镜事件
+     * @param point
+     */
+    function drawImage(point) {
+        var mr = 200;//设置半径
+
+        var imgLg_cx = point.x * scale,
+                imgLg_cy = point.y * scale,
+                sx = imgLg_cx - mr,
+                sy = imgLg_cy - mr,
+                dx = point.x - mr,
+                dy = point.y - mr;
+
+        ctx.save();
+        ctx.lineWidth = 10.0;
+        ctx.strokeStyle = '#069';
+
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, mr, 0, Math.PI * 2, false); //制圆函数
+
+        ctx.stroke();
+        ctx.clip();
+        ctx.drawImage(offcvs, sx, sy, 2 * mr, 2 * mr, dx, dy, 2 * mr, 2 * mr);
+        ctx.restore();//恢复原先画布
+    }
+
+</script>
+</html>
