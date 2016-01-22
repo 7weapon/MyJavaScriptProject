@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ce12c1-37f4-415f-a9e6-9bd500b997ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Canvas/magnifier.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/deer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/boy-sleigh-car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/page-a-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/page-a-window-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/trees.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/window-bottom-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/window-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/window-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/window-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/b/boy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/b/cat-book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/b/cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/b/girl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/b/page-b-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/c/deer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/c/page-c-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/c/window-close-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/c/window-scene-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/carousel/1.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/carousel/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/carousel/2.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/carousel/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/carousel/3.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/carousel/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/music/circulation.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/music/scene.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/css/pageA.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/christmas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/observer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/pageA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/pageB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/pageC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5+Css3(Christmas)/SVG/index.html" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/SVG/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/index.html" afterPath="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/index.html" />
     </list>
     <ignored path="MyJavaScriptProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,57 +60,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="xhr-promise.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
+      <file leaf-file-name="pageA.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/css/pageA.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state vertical-scroll-proportion="-15.566667">
+              <caret line="126" column="88" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thenable.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Canvas/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.333333">
-              <caret line="29" column="24" selection-start-line="13" selection-start-column="4" selection-end-line="29" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magnifier.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Canvas/magnifier.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1797005">
-              <caret line="34" column="55" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2251#2438#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTML5.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1227" column="0" selection-start-line="1227" selection-start-column="0" selection-end-line="1227" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.69962686">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -87,6 +86,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -121,11 +121,37 @@
         <option value="$PROJECT_DIR$/es6/promise/xhr-promise.js" />
         <option value="internal/util.js" />
         <option value="$PROJECT_DIR$/es6/promise/thenable.js" />
-        <option value="$PROJECT_DIR$/Canvas/test.html" />
-        <option value="$PROJECT_DIR$/Canvas/scale.html" />
-        <option value="$PROJECT_DIR$/Canvas/magnifier.html" />
+        <option value="$PROJECT_DIR$/es6/promise/promise-all-timer.js" />
+        <option value="$PROJECT_DIR$/es6/promise/promise-race-timer.js" />
+        <option value="$PROJECT_DIR$/es6/promise/promise-catch.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/index.html" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/关键帧动画/index.html" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/3d变化梳理/index.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/images/index.html" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/观察者模式/observer.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/观察者模式/index.html" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/index.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/index.html" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/common.css" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageA.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageB.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageC.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/christmas.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/common.css" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/pageA.css" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/index.html" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/test.html" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/christmas.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/pageA.js" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/SVG/index.html" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/css/pageA.css" />
+        <option value="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/index.html" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -133,10 +159,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="23" />
-    <option name="width" value="1228" />
-    <option name="height" value="777" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,12 +235,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Canvas" />
+              <option name="myItemId" value="html5+Css3(Christmas)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkSpace(v1.0)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5+Css3(Christmas)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkSpace(v1.0)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyJavaScriptProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5+Css3(Christmas)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkSpace(v1.0)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -227,18 +305,25 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Canvas" />
-      <recent name="$PROJECT_DIR$/emmet" />
-      <recent name="$PROJECT_DIR$/151209roewe" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/151208jxsvw" />
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\WorkSpace(v1.0)" />
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)" />
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\WorkSpace\js" />
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\Canvas" />
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\关键帧动画" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\3D变换" />
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\WorkSpace\css" />
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\WorkSpace" />
+      <recent name="E:\Project\WebStormProject\MyJavaScriptProject\html5+Css3(Christmas)\自使用rem布局" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -264,51 +349,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/3D变换/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/img-lg.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/img.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/scale.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/test.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/SVG/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/common.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/pageA.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/boy-sleigh-car.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/page-a-bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/page-a-window-bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/trees.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-bottom-shadow.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-bottom.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-left.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-right.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/boy.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/cat-book.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/cat.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/girl.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/b/page-b-bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/deer.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/page-c-bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/window-close-bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/window-scene-bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/1.mp4</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/2.mp4</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/3.mp4</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/carousel/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/christmas.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/observer.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageA.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageB.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageC.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/music/circulation.mp3</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/music/scene.mp3</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/关键帧动画/bird.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/关键帧动画/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/自使用rem布局/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/观察者模式/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/观察者模式/observer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Canvas/magnifier.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -316,7 +357,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html5+Css3(Christmas)/index.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -398,20 +438,20 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Node.js.thenable.js">
-    <configuration default="false" name="index.shtml (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyJavaScriptProject/斯巴鲁-mobil-易车/index.shtml">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="promise-all-timer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="promise-all-timer.js" working-dir="$PROJECT_DIR$/es6/promise">
       <method />
     </configuration>
-    <configuration default="false" name="inherit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="inherit.js" working-dir="$PROJECT_DIR$/emmet">
+    <configuration default="false" name="promise-race-timer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="promise-race-timer.js" working-dir="$PROJECT_DIR$/es6/promise">
       <method />
     </configuration>
-    <configuration default="false" name="hashTable.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="hashTable.js" working-dir="$PROJECT_DIR$/emmet">
+    <configuration default="false" name="promise-catch.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="promise-catch.js" working-dir="$PROJECT_DIR$/es6/promise">
       <method />
     </configuration>
-    <configuration default="false" name="xhr-promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="xhr-promise.js" working-dir="$PROJECT_DIR$/es6/promise">
+    <configuration default="false" name="christmas.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="christmas.js" working-dir="$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js">
       <method />
     </configuration>
-    <configuration default="false" name="thenable.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="thenable.js" working-dir="$PROJECT_DIR$/es6/promise">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyJavaScriptProject/html5+Css3(Christmas)/WorkSpace(v1.0)/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -464,26 +504,25 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.shtml (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.inherit.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.hashTable.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.xhr-promise.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.thenable.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.promise-all-timer.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.promise-race-timer.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.promise-catch.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.christmas.js" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.thenable.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.xhr-promise.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.hashTable.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.inherit.js" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.shtml (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.christmas.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.promise-catch.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.promise-race-timer.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.promise-all-timer.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
-    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -522,52 +561,112 @@
       <option name="project" value="LOCAL" />
       <updated>1451316512752</updated>
     </task>
-    <task id="LOCAL-00006" summary="promise">
-      <created>1453045719410</created>
+    <task id="LOCAL-00006" summary="promise-all,race">
+      <created>1453107818557</created>
       <option name="number" value="00006" />
       <option name="project" value="LOCAL" />
-      <updated>1453045719410</updated>
+      <updated>1453107818557</updated>
     </task>
-    <task id="LOCAL-00007" summary="promise">
-      <created>1453131227251</created>
+    <task id="LOCAL-00007" summary="Christmas">
+      <created>1453109925843</created>
       <option name="number" value="00007" />
       <option name="project" value="LOCAL" />
-      <updated>1453131227251</updated>
+      <updated>1453109925843</updated>
     </task>
-    <task id="LOCAL-00008" summary="Canvas绘图">
-      <created>1453301674419</created>
+    <task id="LOCAL-00008" summary="workSpace">
+      <created>1453212071148</created>
       <option name="number" value="00008" />
       <option name="project" value="LOCAL" />
-      <updated>1453301674419</updated>
+      <updated>1453212071148</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Christmas">
+      <created>1453338303940</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1453338303940</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Canvas">
+      <created>1453339893570</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1453339893570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Animation">
+      <created>1453368731389</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1453368731389</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Animation">
+      <created>1453368742922</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1453368742922</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1453368878923</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1453368878923</updated>
+    </task>
+    <task id="LOCAL-00014" summary="animation">
+      <created>1453369165982</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1453369165982</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1228" height="777" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24855012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32605043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39831933" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39831933" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39831933" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32605043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -587,161 +686,23 @@
     <MESSAGE value="webstorm 10&#10;" />
     <MESSAGE value="Utility 异步加载外联脚本&#10;" />
     <MESSAGE value="inherit继承" />
-    <MESSAGE value="promise" />
-    <MESSAGE value="Canvas绘图" />
-    <option name="LAST_COMMIT_MESSAGE" value="Canvas绘图" />
+    <MESSAGE value="promise-all,race" />
+    <MESSAGE value="workSpace" />
+    <MESSAGE value="Christmas" />
+    <MESSAGE value="Canvas" />
+    <MESSAGE value="Animation" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="&#10;" />
+    <MESSAGE value="animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Canvas/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/xhr-promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emmet/hashTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/语法/utility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emmet/inherit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/语法/utility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emmet/inherit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/语法/utility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/语法/utility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/语法/Closure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5086888">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/语法/utility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emmet/inherit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/emmet/hashTable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -760,82 +721,335 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_requirejs_require.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.434232">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_jquery_jquery.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.773494">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/es6/promise/thenable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Canvas/img.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Canvas/scale.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0715474">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Canvas/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.333333">
-          <caret line="29" column="24" selection-start-line="13" selection-start-column="4" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Canvas/img-lg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+    <entry file="file://$PROJECT_DIR$/es6/promise/promise-all-timer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1227" column="0" selection-start-line="1227" selection-start-column="0" selection-end-line="1227" selection-end-column="0" />
+          <caret line="20" column="2" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/promise/promise-race-timer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/promise/promise-catch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/关键帧动画/bird.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm10/system/extLibs/http_code.jquery.com_jquery-2.0.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040636044">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/关键帧动画/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="23.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/自使用rem布局/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9333334">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/观察者模式/observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/观察者模式/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_canvasjs_canvasjs.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2844523">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47201493">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/Canvas/scale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5578358">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/c/page-c-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/3D变换/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6735075">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="75" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0666666">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1453362418681" expanded="true" signature="809:913" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-left.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-right.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-bottom-shadow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/window-bottom.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/trees.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/page-a-window-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/page-a-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Canvas/magnifier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1797005">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.47201493">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/images/a/boy-sleigh-car.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9">
+          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/css/pageA.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-69.76667">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/christmas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2279152">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
           <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2251#2438#0" expanded="false" />
+            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#938#1348#0" expanded="false" />
+            <element signature="e#2328#2441#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace/js/pageA.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24381626">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1538461">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/pageA.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/js/christmas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/SVG/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48507464">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#polygon#0;n#svg#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/trees.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/page-a-window-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/boy-sleigh-car.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/window-right.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/window-left.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/window-bottom-shadow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/page-a-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/images/a/window-bottom.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/css/pageA.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.566667">
+          <caret line="126" column="88" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5+Css3(Christmas)/WorkSpace(v1.0)/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69962686">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
