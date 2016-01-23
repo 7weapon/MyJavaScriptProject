@@ -1,0 +1,110 @@
+
+.container .page-b {
+    width: 100%;
+    height: 100%;
+    background: url('../images/b/page-b-bg.png');
+    position: absolute;
+    z-index: 40;
+}
+
+/**
+* 圣诞小男孩
+*/
+.christmas-boy {
+    width: 5251px;
+    height: 407px;
+    position: absolute;
+    z-index: 5;
+    right: -3.5rem;
+    top: 4rem;
+    -webkit-background-size: 1500% 100%;
+    background-size: 1500% 100%;
+    background: url('../images/b/boy.png') 0% 100%;
+}
+
+/**
+ *  男孩头部
+*/
+.christmas-boy-head {
+    left: 7.85rem;
+    top: 4rem;
+    width: 3.5rem;
+    height: 4.06rem;
+    position: absolute;
+    z-index: 12;
+    background: url('../images/b/boy.png') -1300% 100%;
+    -webkit-background-size: 1400% 100%;
+    background-size: 1400% 100%;
+    display: none;
+}
+
+/**
+  * 男孩走路动作
+*/
+.boy-walk {
+    animation: boyWalk 0.75s steps(4, end) infinite;
+}
+
+@keyframes boyWalk {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: -400% 100%;
+    }
+}
+
+/**
+ * 脱衣动作
+*/
+
+.boy-strip-1 {
+    background-position: -800% 100%;
+}
+
+.boy-strip-2 {
+    background-position: -900% 100%;
+}
+
+.boy-strip-3 {
+    background-position: -1000% 100%;
+}
+
+/**
+ * 站立动作
+*/
+.boy-stand {
+    background-position: -400% 100%;
+}
+
+/**
+ * 打开包裹
+*/
+.boy-unwrapp {
+      animation: boyUnwrapp 2s steps(2,end) 1 forwards;
+}
+
+@keyframes boyUnwrapp {
+    0% {
+        background-position: -400% 100%;
+    }
+    100% {
+        background-position: -600% 100%;
+    }
+}
+
+/**
+ * 男孩拥抱
+*/
+.boy-hug{
+      animation: boyHug 1s steps(3,end) 1 forwards;
+}
+
+@keyframes boyHug {
+    0%{
+        background-position: -1000% 100%;
+    }
+    100%{
+        background-position: -1300% 100%;
+    }
+}
