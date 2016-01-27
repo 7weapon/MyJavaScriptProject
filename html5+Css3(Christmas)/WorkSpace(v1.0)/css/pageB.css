@@ -11,12 +11,12 @@
 * 圣诞小男孩
 */
 .christmas-boy {
-    width: 5251px;
-    height: 407px;
+    width: 3.5rem;
+    height: 4.06rem;
     position: absolute;
     z-index: 5;
     right: -3.5rem;
-    top: 4rem;
+    top: 5rem;
     -webkit-background-size: 1500% 100%;
     background-size: 1500% 100%;
     background: url('../images/b/boy.png') 0% 100%;
@@ -42,10 +42,21 @@
   * 男孩走路动作
 */
 .boy-walk {
+    -webkit-animation: boyWalk 0.75s steps(4, end) infinite;
+    -o-animation: boyWalk 0.75s steps(4, end) infinite;
     animation: boyWalk 0.75s steps(4, end) infinite;
 }
 
-@keyframes boyWalk {
+@-webkit-keyframes boyWalk {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: -400% 100%;
+    }
+}
+
+@-moz-keyframes boyWalk {
     0% {
         background-position: 0 100%;
     }
@@ -81,7 +92,7 @@
  * 打开包裹
 */
 .boy-unwrapp {
-      animation: boyUnwrapp 2s steps(2,end) 1 forwards;
+    animation: boyUnwrapp 2s steps(2, end) 1 forwards;
 }
 
 @keyframes boyUnwrapp {
@@ -96,15 +107,33 @@
 /**
  * 男孩拥抱
 */
-.boy-hug{
-      animation: boyHug 1s steps(3,end) 1 forwards;
+.boy-hug {
+    animation: boyHug 1s steps(3, end) 1 forwards;
 }
 
 @keyframes boyHug {
-    0%{
+    0% {
         background-position: -1000% 100%;
     }
-    100%{
+    100% {
         background-position: -1300% 100%;
     }
+}
+
+/**
+  * 小男孩动作
+*/
+
+.walk-stop {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.walk-run {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
 }

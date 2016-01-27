@@ -8,7 +8,9 @@ function pageA($el) {
     this.$window = $el.find('.window');
     this.$leftWin = this.$window.find('.window-left');
     this.$rightWin = this.$window.find('.window-right');
-    this.run();
+    this.run(function(){
+        alert('窗户已经打开了')
+    });
 }
 
 /**
@@ -88,7 +90,7 @@ pageA.prototype.run = function (callback) {
     }).then(function () {
         that.stopWalk()
         that.openWindow(function(){
-            alert('窗户已经打开');
+            callback && callback();
         })
     })
 }
