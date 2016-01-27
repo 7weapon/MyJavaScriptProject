@@ -9,13 +9,18 @@
  * @constructor
  */
 var Christmas = function () {
-    var $pageA = $('.page-a');
-    new pageA($pageA);
+    /*var $pageA = $('.page-a');
+    new pageA($pageA);*/
+    var $pageB = $('.page-b');
+    new pageB($pageB);
 }
 
 $(function () {
-  $('#btnSleigh').click(function(){
-      Christmas();
-  })
+    /*$('#btnSleigh').click(function(){
+     Christmas();
+     })*/
+    $('#btnRunB').click(function () {
+        Christmas();
+    })
 
 })
