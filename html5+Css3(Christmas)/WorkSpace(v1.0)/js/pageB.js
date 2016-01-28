@@ -14,7 +14,7 @@ function pageB($el, pageComplete) {
         boyAction = {
             walk: function () { //继续走路
                 var defer = $.Deferred();
-                $boy.transition({'rigth': '4.5rem'}, 4000, 'linear', function () {
+                $boy.transition({'right': '4.5rem'}, 4000, 'linear', function () {
                     defer.resolve();
                 })
                 return defer;
