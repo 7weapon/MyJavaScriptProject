@@ -39,3 +39,19 @@ if (1) {
         console.log(4)
     }
 }
+
+
+   function test(){
+       console.log(a);
+       console.log(foo());
+       var a = 1;
+       function foo(){
+           return 2;
+       }
+   }
+
+/*
+    可知变量和函数声明都被提前（移动到函数的顶部），但变量不分配任何值
+ */
+
+test(); //undefined    2
