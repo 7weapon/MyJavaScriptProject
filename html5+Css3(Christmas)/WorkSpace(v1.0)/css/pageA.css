@@ -15,13 +15,27 @@
     position: absolute;
     left: 3.3rem;
     top: .8rem;
+    -webkit-animation: nucleus 2s infinite linear;
     animation: nucleus 2s infinite linear;
 }
 
 /**
   * 光晕效果
 */
-@keyframes nucleus {
+@-webkit-keyframes nucleus {
+    0% {
+        box-shadow: 0 0 transparent;
+    }
+    50% {
+        box-shadow: 0 0 1rem #FCF0BC;
+    }
+    100% {
+        box-shadow: 0 0 0 transparent;
+    }
+
+}
+
+@-moz-keyframes nucleus {
     0% {
         box-shadow: 0 0 transparent;
     }
@@ -43,13 +57,24 @@
     left: 1rem;
     background-image: url('../images/a/trees.png');
     background-size: 200% 100%;
+
+    -webkit-animation: treeAnim 1s steps(2) infinite;
     animation: treeAnim 1s steps(2) infinite;
 }
 
 /**
    *圣诞树效果
 */
-@keyframes treeAnim {
+@-webkit-keyframes treeAnim {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: -200% 100%;
+    }
+}
+
+@-moz-keyframes treeAnim {
     0% {
         background-position: 0% 100%;
     }
@@ -68,10 +93,18 @@
     left: .5rem;
     top: 1.8rem;
     z-index: 5;
+    -webkit-animation: cloudy 5s ease-in-out infinite;
     animation: cloudy 5s ease-in-out infinite;
 }
 
-@keyframes cloudy {
+@-webkit-keyframes cloudy {
+    50% {
+        transform: translateY(-0.1rem);
+    }
+
+}
+
+@-moz-keyframes cloudy {
     50% {
         transform: translateY(-0.1rem);
     }
@@ -97,10 +130,21 @@
   * 圣诞男孩走路动作
 */
 .chs-boy-deer {
+    -webkit-animation: chsBoyDeer 0.75s steps(3, end) infinite;
     animation: chsBoyDeer 0.75s steps(3, end) infinite;
 }
 
-@keyframes chsBoyDeer {
+@-webkit-keyframes chsBoyDeer {
+    0% {
+        background-position: -0% 100%;
+    }
+    100% {
+        background-position: -300% 100%;
+    }
+
+}
+
+@-moz-keyframes chsBoyDeer {
     0% {
         background-position: -0% 100%;
     }
@@ -111,6 +155,8 @@
 }
 
 .boy-stop-animate {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
     animation-play-state: paused;
 }
 

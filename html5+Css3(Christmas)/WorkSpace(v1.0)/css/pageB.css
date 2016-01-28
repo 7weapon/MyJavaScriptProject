@@ -7,16 +7,20 @@
     z-index: 40;
 }
 
+/***************************
+   男孩动作
+***************************/
+
 /**
 * 圣诞小男孩
 */
 .christmas-boy {
-    width: 4.0rem;
-    height: 4.9rem;
+    width: 4.1rem;
+    height: 4.8rem;
     position: absolute;
     z-index: 5;
     right: -3.5rem;
-    top: 4rem;
+    top: 3.6rem;
     -webkit-background-size: 1500% 100%;
     background-size: 1500% 100%;
     background: url('../images/b/boy.png') 0% 100%;
@@ -26,8 +30,8 @@
  *  男孩头部
 */
 .christmas-boy-head {
-    left: 7.85rem;
-    top: 4rem;
+    left: 8.2rem;
+    top: 3.95rem;
     width: 3.5rem;
     height: 4.06rem;
     position: absolute;
@@ -43,7 +47,6 @@
 */
 .boy-walk {
     -webkit-animation: boyWalk 0.75s steps(4, end) infinite;
-    -o-animation: boyWalk 0.75s steps(4, end) infinite;
     animation: boyWalk 0.75s steps(4, end) infinite;
 }
 
@@ -93,9 +96,19 @@
 */
 .boy-unwrapp {
     animation: boyUnwrapp 2s steps(2, end) 1 forwards;
+    -webkit-animation: boyUnwrapp 2s steps(2, end) 1 forwards;
 }
 
-@keyframes boyUnwrapp {
+@-webkit-keyframes boyUnwrapp {
+    0% {
+        background-position: -400% 100%;
+    }
+    100% {
+        background-position: -600% 100%;
+    }
+}
+
+@-moz-keyframes boyUnwrapp {
     0% {
         background-position: -400% 100%;
     }
@@ -108,10 +121,20 @@
  * 男孩拥抱
 */
 .boy-hug {
+    -webkit-animation: boyHug 1s steps(3, end) 1 forwards;
     animation: boyHug 1s steps(3, end) 1 forwards;
 }
 
-@keyframes boyHug {
+@-webkit-keyframes boyHug {
+    0% {
+        background-position: -1000% 100%;
+    }
+    100% {
+        background-position: -1300% 100%;
+    }
+}
+
+@-moz-keyframes boyHug {
     0% {
         background-position: -1000% 100%;
     }
@@ -127,13 +150,207 @@
 .walk-stop {
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
-    -o-animation-play-state: paused;
     animation-play-state: paused;
 }
 
 .walk-run {
     -webkit-animation-play-state: running;
     -moz-animation-play-state: running;
-    -o-animation-play-state: running;
     animation-play-state: running;
+}
+
+.cat {
+
+}
+
+/***************************
+   女孩动作
+***************************/
+.girl {
+    width: 3.5rem;
+    height: 4.06rem;
+    position: absolute;
+    z-index: 10;
+    left: 1.2rem;
+    top: 3.55rem;
+    background: url('../images/b/girl.png');
+    background-size: 2100% 100%;
+}
+
+/**
+ * 小女孩起身
+*/
+.girl-standUp {
+    left: 1.2rem;
+    -webkit-animation: stanUp 200ms steps(3, end) forwards;
+    animation: stanUp 200ms steps(3, end) forwards;
+}
+
+@-webkit-keyframes standUp {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background: -300% 100%;
+        top: 4rem;
+    }
+}
+
+@-moz-keyframes standUp {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background: -300% 100%;
+        top: 4rem;
+    }
+}
+
+/**
+ * 抛书动作
+*/
+
+.girl-throwBook {
+    top: 4rem;
+    left: 0.5rem;
+    -webkit-animation: throwBook 300ms steps(2, start) forwards;
+    -moz-animation: throwBook 300ms steps(2, start) forwards;
+    animation: throwBook 300ms steps(2, start) forwards;
+}
+
+@-webkit-keyframes throwBook {
+    0% {
+        background-position: -300% 100%;
+    }
+    100% {
+        background-position: -500% 100%;
+    }
+}
+
+@-moz-keyframes throwBook {
+    0% {
+        background-position: -300% 100%;
+    }
+    100% {
+        background-position: -500% 100%;
+    }
+}
+
+/**
+ * 小女孩走路
+*/
+.girl-walk {
+    left: 1rem;
+    -webkit-animation: girlWalk 900ms steps(4, start) infinite;
+    animation: girlWalk 900ms steps(4, start) infinite;
+
+}
+
+@-webkit-keyframes girlWalk {
+    0% {
+        background-position: -500% 100%;
+    }
+    100% {
+        background-position: -900% 100%;
+    }
+}
+
+@-moz-keyframes girlWalk {
+    0% {
+        background-position: -500% 100%;
+    }
+    100% {
+        background-position: -900% 100%;
+    }
+}
+
+/**
+ * 站立动作
+*/
+.girl-stand {
+    top: 4rem;
+    background-position: -1000% 100%;
+}
+
+/**
+ * 小女孩选择3d选择
+ */
+
+.girl-choose {
+    -webkit-animation: girlChoose 2000ms steps(2, end) forwards;
+    -moz-animation: girlChoose 2000ms steps(2, end) forwards;
+}
+
+@-webkit-keyframes girlChoose {
+    0% {
+        background-position: -1000% 100%;
+    }
+    100% {
+        background-position: -1200% 100%;
+    }
+}
+
+@-moz-keyframes girlChoose {
+    0% {
+        background-position: -1000% 100%;
+    }
+    100% {
+        background-position: -1200% 100%;
+    }
+}
+
+/**
+ * 流泪奔跑
+ */
+
+.girl-weep {
+    -webkit-animation: girlWeep 450ms steps(4, end) forwards infinite;
+    -moz-animation: girlWeep 450ms steps(4, end) forwards infinite;
+}
+
+@-webkit-keyframes girlWeep {
+    0% {
+        background-position: -1300% 100%;
+    }
+    100% {
+        background-position: -1700% 100%;
+    }
+}
+
+@-moz-keyframes girlWeep {
+    0% {
+        background-position: -1300% 100%;
+    }
+    100% {
+        background-position: -1700% 100%;
+    }
+}
+
+/**
+ * 女孩拥抱
+ */
+
+.girl-hug {
+    -webkit-animation: girlHug 450ms steps(3, end) forwards;
+    -moz-animation: girlHug 450ms steps(3, end) forwards;
+}
+
+@-webkit-keyframes girlHug {
+    0% {
+        background-position: -1700% 100%;
+    }
+    100% {
+        left: 7.85rem;
+        background-position: -2000% 100%;
+    }
+}
+
+@-moz-keyframes girlHug {
+    0% {
+        background-position: -1700% 100%;
+    }
+    100% {
+        left: 7.85rem;
+        background-position: -2000% 100%;
+    }
 }
