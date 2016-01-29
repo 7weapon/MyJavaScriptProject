@@ -601,7 +601,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454060557555</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="小女孩走路基本代码已经实现，有少许bug需要调整&#10;">
+      <created>1454060601021</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1454060601021</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
