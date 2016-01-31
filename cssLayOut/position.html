@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position练习</title>
+    <style>
+        body {
+            margin-bottom: 120px;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        nav {
+            position: absolute;
+            left: 0;
+            width: 200px;
+            border: 1px solid red;
+        }
+
+        section {
+            position: relative;
+            margin-left: 200px;
+            border: 2px solid green;
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            height: 70px;
+            width: 100%;
+            bottom: 0;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <ul>
+            <li>
+                <a href="position-example.html">Home</a>
+            </li>
+            <li>
+                <a href="position-example.html">Taco Menu</a>
+            </li>
+            <li>
+                <a href="position-example.html">Draft List</a>
+            </li>
+            <li>
+                <a href="position-example.html">Hours</a>
+            </li>
+            <li>
+                <a href="position-example.html">Directions</a>
+            </li>
+            <li>
+                <a href="position-example.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <p>section s的 margin-left 样式确保了有足够的空间容纳 nav 元素。</p>
+    </section>
+    <section>
+        <p>section s的 margin-left 样式确保了有足够的空间容纳 nav 元素。</p>
+    </section>
+    <section>
+        <p>section s的 margin-left 样式确保了有足够的空间容纳 nav 元素。</p>
+    </section>
+    <footer>
+        如果你使用了一个固定定位的页眉或页脚，确保有足够的空间来显示它们！我在 body 上面加了 margin-bottom 。
+    </footer>
+</div>
+</body>
+</html>
