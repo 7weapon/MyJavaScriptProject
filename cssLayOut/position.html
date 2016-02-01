@@ -33,6 +33,24 @@
             bottom: 0;
             background-color: yellow;
         }
+        /**
+          * 响应式布局
+        */
+        @media screen and (min-width: 600px) {
+            nav{
+                float: left;
+                width: 25%;
+            }
+            section {
+                margin-left:25%;
+            }
+        }
+
+        @media screen and (max-width: 599px) {
+          nav li {
+              display: inline;
+          }
+        }
     </style>
 </head>
 <body>
