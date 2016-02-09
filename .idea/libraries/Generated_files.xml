@@ -4,27 +4,34 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/es6/Symbol/symbolProperty-compiled.js" />
         <item url="file://$PROJECT_DIR$/es6/Symbol/getOwnPropertySymbol-compiled.js" />
+        <item url="file://$PROJECT_DIR$/es6/Symbol/symbolFor-compiled.js" />
+        <item url="file://$PROJECT_DIR$/es6/模板字符串/consoleMultiple-compiled.js" />
+        <item url="file://$PROJECT_DIR$/es6/模板字符串/consoleAdd-compiled.js" />
         <item url="file://$PROJECT_DIR$/es6/generator/generator-compiled.js" />
         <item url="file://$PROJECT_DIR$/es6/promise/promiseTest-compiled.js" />
-        <item url="file://$PROJECT_DIR$/es6/Symbol/symbolFor-compiled.js" />
+        <item url="file://$PROJECT_DIR$/es6/模板字符串/tag-compiled.js" />
         <item url="file://$PROJECT_DIR$/es6/promise/promise-all-compiled.js" />
         <item url="file://$PROJECT_DIR$/es6/Set/set-compiled.js" />
         <item url="file://$PROJECT_DIR$/es6/Symbol/symbol-compiled.js" />
         <item url="file://$PROJECT_DIR$/es6/WeakSet/weakset-compiled.js" />
-        <item url="file://$PROJECT_DIR$/es6/callback/inde-compiled.js" />
+        <item url="file://$PROJECT_DIR$/es6/StringExtend-compiled.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/es6/Symbol/symbolProperty-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/Symbol/getOwnPropertySymbol-compiled.js" />
+      <root url="file://$PROJECT_DIR$/es6/Symbol/symbolFor-compiled.js" />
+      <root url="file://$PROJECT_DIR$/es6/callback/index-compiled.js" />
+      <root url="file://$PROJECT_DIR$/es6/模板字符串/consoleMultiple-compiled.js" />
+      <root url="file://$PROJECT_DIR$/es6/模板字符串/consoleAdd-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/generator/generator-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/promise/promiseTest-compiled.js" />
-      <root url="file://$PROJECT_DIR$/es6/Symbol/symbolFor-compiled.js" />
+      <root url="file://$PROJECT_DIR$/es6/模板字符串/tag-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/promise/promise-all-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/Set/set-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/Symbol/symbol-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/WeakSet/weakset-compiled.js" />
-      <root url="file://$PROJECT_DIR$/es6/callback/index-compiled.js" />
+      <root url="file://$PROJECT_DIR$/es6/String/StringExtend-compiled.js" />
     </CLASSES>
     <SOURCES />
   </library>
