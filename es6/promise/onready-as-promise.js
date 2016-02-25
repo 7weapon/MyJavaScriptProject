@@ -6,16 +6,17 @@ function onReadyPromise() {
     return new Promise(function (resolve, reject) {
         var readyState = document.readyState;
         if (readyState === 'interactive' || readyState === 'complete') {
-            resolve();
+            //resolve('success');
         } else {
             window.addEventListener('DOMContentLoaded', resolve);
+            //resolve('success');
         }
 
     })
 }
 
-onReadyPromise().then(function () {
-    console.log('DOM fully loaded and parsed');
+onReadyPromise().then(function (data) {
+    console.log('DOM fully loaded and parsed', data);
 })
 
 console.log('========starting======');

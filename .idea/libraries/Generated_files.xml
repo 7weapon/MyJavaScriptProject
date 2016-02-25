@@ -1,5 +1,11 @@
 <component name="libraryTable">
   <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/es6/promise/onready-as-promise-compiled.js" />
+        <item url="file://$PROJECT_DIR$/es6/promise/promise-statis-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/es6/Symbol/symbolProperty-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/Symbol/getOwnPropertySymbol-compiled.js" />
@@ -15,6 +21,8 @@
       <root url="file://$PROJECT_DIR$/es6/Symbol/symbol-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/WeakSet/weakset-compiled.js" />
       <root url="file://$PROJECT_DIR$/es6/String/StringExtend-compiled.js" />
+      <root url="file://$PROJECT_DIR$/es6/promise/onready-as-promise-compiled.js" />
+      <root url="file://$PROJECT_DIR$/es6/promise/promise-statis-compiled.js" />
     </CLASSES>
     <SOURCES />
   </library>
