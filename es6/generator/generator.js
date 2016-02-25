@@ -2,7 +2,6 @@
  * Created by HawkingChan on 16/2/6.
  */
 'use strict';
-
 /*
  function* GeneratorTest() {
  yield 'hello';
@@ -14,7 +13,8 @@
  console.log(generator.next());
  console.log(generator.next());
  console.log(generator.next());
- console.log(generator.next());*/
+ console.log(generator.next());
+*/
 
 function* test1Generator(i) {
     yield i + 1;
