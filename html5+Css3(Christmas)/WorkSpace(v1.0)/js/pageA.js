@@ -4,8 +4,8 @@
 'use strict';
 function pageA($el) {
     this.$root = $el;
-    this.$boy = $el.find('.chs-boy');
-    this.$window = $el.find('.window');
+    this.$boy = this.$root.find('.chs-boy');
+    this.$window = this.$root.find('.window');
     this.$leftWin = this.$window.find('.window-left');
     this.$rightWin = this.$window.find('.window-right');
     this.run(function(){
