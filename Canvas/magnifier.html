@@ -71,9 +71,12 @@
      * @param y
      */
     function windowToCanvas(x, y) {
+        console.log(x,y);
         var bbox = cvs.getBoundingClientRect();
-//        console.log(bbox);
-        return {x: x - bbox.left, y: y - bbox.top};
+        console.log(bbox);
+        var point = {x: x - bbox.left, y: y - bbox.top};
+        console.log(point);
+        return point;
     }
 
     /**
