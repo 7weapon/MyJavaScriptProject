@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件广播</title>
+</head>
+<body>
+<div id="div1" style="background-color: #61e4f7">点击我</div>
+<div id="div2" style="background-color: red">点击我</div>
+<script>
+    document.addEventListener('ondataavailable', function (e) {
+        alert(e.eventType);
+    });
+
+    var dom = document.querySelector('#div1');
+    dom.addEventListener('click', function (e) {
+      alert(e.eventType);
+    });
+
+    var event = document.createEvent('htmlevents');
+    event.initEvent('ondataavailable', true, true);
+    event.eventType = 'message';
+
+    document.dispatchEvent(event);
+
+    var event1 = document.createEvent('htmlevents');
+    event1.initEvent('click',true,true);
+    event1.eventType = 'clickmessage';
+
+    var dom2 = document.querySelector('#div2');
+    dom2.onclick = function(e){
+        dom.dispatchEvent(event1);
+    }
+
+
+</script>
+</body>
+</html>

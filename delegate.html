@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单委托实现</title>
+</head>
+<body>
+
+<div id="div1"><a href="javascript:void (0);">点击</a></div>
+
+
+<script src="delegateEvent.js"></script>
+<script type="text/javascript">
+    var dom = document.querySelector('#div1');
+    delegateEvent(dom, 'a', 'click', function () {
+        alert(1);
+    })
+
+</script>
+</body>
+</html>

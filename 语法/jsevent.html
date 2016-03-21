@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件三个阶段</title>
+</head>
+<body>
+<div id="div1">
+    <div id="div2">点击</div>
+</div>
+<script>
+   document.querySelector('#div1').addEventListener('click',function(e){
+       console.log('div1 捕获模式')
+   },true);
+   document.querySelector('#div2').addEventListener('click',function(e){
+       console.log('div2 捕获模式')
+   },true);
+   document.querySelector('#div1').addEventListener('click',function(e){
+       console.log('div1 冒泡模式')
+   },false);
+   document.querySelector('#div2').addEventListener('click',function(e){
+       console.log('div2 冒泡模式')
+   },false);
+</script>
+</body>
+</html>
