@@ -59,4 +59,51 @@ function getQueryObject(url) {
     return obj;
 }
 
+/**
+ * 传统的函数节流
+ * @param method
+ * @param context
+ */
+function throttle(method, context) {
+    "use strict";
+    clearTimeout(method.tId);
+    method.tId = setTimeout(()=> {
+        method.call(context);
+    }, 100)
+}
+
+var throttleV1 = function (fn, delay) {
+    "use strict";
+    var timer = null;
+    return ()=> {
+        var context = this, args = arguments;
+        clearTimeout(timer);
+        timer = setTimeout(()=> {
+            fn.apply(context, args);
+        }, delay);
+    }
+};
+
+var throttleV2 = function (fn, dely, mustRunDely) {
+    "use strict";
+    var timer = null;
+    var t_start;
+    return ()=> {
+        var context = this, args = arguments, t_cur = +new Date();  //获取毫秒数
+        clearTimeout(timer);
+        if (!t_start) {
+            t_start = t_cur;
+        }
+        if (t_cur - t_start >= mustRunDely) {
+            fn.apply(context, args);
+            t_start = t_cur;
+        }
+        else {
+            timer = setTimeout(()=> {
+                fn.apply(context, args);
+            }, dely)
+        }
+    }
+};
+
 
