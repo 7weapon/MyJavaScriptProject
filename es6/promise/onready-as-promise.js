@@ -6,7 +6,7 @@ function onReadyPromise() {
     return new Promise(function (resolve, reject) {
         var readyState = document.readyState;
         if (readyState === 'interactive' || readyState === 'complete') {
-            //resolve('success');
+            resolve('success');
         } else {
             window.addEventListener('DOMContentLoaded', resolve);
             //resolve('success');
