@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main{
+            margin:20px 0;
+            background-color: #FCF0BC;
+        }
+        .button{
+            margin:0 20px;
+        }
+    </style>
+    <script src="uniformvelocity.js"></script>
+</head>
+<body>
+<div class="main">
+      <button id="btn" class="button">点击我呀</button>
+</div>
+<script>
+    var btn = document.querySelector('#btn');
+    uniformVelocity(btn,100,2);
+    console.log('--------------offset属性---------------')
+    console.log(btn.offsetTop,btn.offsetLeft,btn.offsetHeight,btn.offsetWidth,btn.offsetParent)
+    console.log('--------------style属性---------------')
+    console.log(btn.style.top,btn.style.bottom,btn.style.left,btn.style.right)
+</script>
+</body>
+</html>
