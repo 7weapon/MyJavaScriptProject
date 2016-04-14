@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #parent {
+            background-color: #61e4f7;
+            width: 100%;
+            height: 200px;
+            margin: 10px auto;
+        }
+
+        #wrap {
+            background-color: #b4b472;
+            width: 80%;
+            height: 50px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+<div id="parent">
+    <div id="wrap"></div>
+</div>
+<script>
+    var parent = document.querySelector('#parent');
+    var wrap = document.querySelector('#wrap');
+    var newEl = document.createElement('div');
+//    parent.insertBefore(newEl,wrap);
+    console.log(parent.innerHTML);
+
+</script>
+</body>
+</html>
