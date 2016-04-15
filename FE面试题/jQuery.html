@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery常用功能总结</title>
+    <style>
+        header{
+            position: fixed;
+            z-index: 5;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #fff;
+            border-bottom: 1px solid #f1f1f1;
+            color: #909090;
+            height: 4em;
+        }
+    </style>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            //检测图片是否损坏
+            $('img').error(function (e) {
+                console.log(e.target);
+                $(this).attr('src', './mm.jpg'); //进行修复
+            });
+
+        })
+    </script>
+</head>
+<body>
+<header>
+    <section ></section>
+</header>
+<div>
+    <img src="./err.jpg" width="300" height="300" alt="girls">
+</div>
+</body>
+</html>
