@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>源文档</title>
-    <script>
-        var tartgetWin = window.open('test.html', '_blank', 'width=400,300');
-        tartgetWin.onload = function () {
-            tartgetWin.postMessage('master messages', 'http://localhost:63342');
+    <style>
+        body{
+            margin: 0;
+            padding:0;
         }
-        window.onmessage = function (event) {
-            if (event.orgin !== 'http://localhost:63342') {
-                return;
-            }
-            alert(event.data);
+        iframe{
+            width:600px;
         }
-    </script>
+    </style>
 </head>
 <body>
-
+<div>
+    <iframe id="ifrContent" src="http://manage2.market.bitauto.com:63342/MyJavaScriptProject/FE%E9%9D%A2%E8%AF%95%E9%A2%98/cross-document/test.html" frameborder="1"></iframe>
+    <input type="text"  id="msg">
+    <input type="button" onclick="sendMsg()" value="发送">
+</div>
+<script>
+    function sendMsg()
+    {
+        var targetWin = document.getElementById('#ifrContent').contentWindow ;
+        var msg = document.querySelector('#msg').value;
+        targetWin.postMessage(msg,'http://manage2.market.bitauto.com:63342') ;
+    }
+</script>
 </body>
 </html>

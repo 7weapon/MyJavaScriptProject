@@ -6,17 +6,19 @@
     <script>
         window.onmessage = function(event)
         {
-            if(event.orgin !== 'http://localhost:63342')
+            if(event.orgin !== 'http://manage2.market.bitauto.com:63342')
             {
-                 return;
+                return;
             }
-            alert('test received '+event.data);
 
-            event.source.postMessage('test message',event.orgin);
+             document.querySelector('#content').appendChild(event.data + '<br/>');
         }
     </script>
 </head>
 <body>
-
+      <section>
+          Web Page from child
+      </section>
+<section id="content"></section>
 </body>
 </html>
