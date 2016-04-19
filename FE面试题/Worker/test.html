@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <input type="number" id="start" placeholder="起始次数">
+    <input type="number" id="end" placeholder="截止次数">
+    <input type="button" onclick="calc()" value="操作">
+</div>
+<script>
+    var calc = function () {
+        var start = parseInt(document.querySelector('#start').value);
+        var end = parseInt(document.querySelector('#end').value);
+
+        var worker = new Worker('./worker.js');
+        var data = {
+            start: start,
+            end: end
+        }
+
+        worker.postMessage(JSON.stringify(data));
+        worker.onmessage = function(event)
+        {
+            console.log(event.data);
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>综述</title>
+    <script src="http://apps.bdimg.com/libs/vue/1.0.14/vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <input v-model="newTodo" v-on:keyup.enter="addTodo">
+    <ul>
+        <li v-for="todo in todos">
+            <span>{{todo.text}}</span>
+            <button v-on:click="removeTodo($index)">X</button>
+        </li>
+    </ul>
+</div>
+<script>
+    "use strict";
+    var appVue = new Vue({
+        el: '#app',
+        data: {
+            newTodo: '',
+            todos: [{text: '早上9点到公司'}]
+        },
+        methods: {
+            addTodo: function () {
+                var txt = this.newTodo.trim();
+                if (txt) {
+                    this.todos.push({text: txt});
+                    this.newTodo = '';
+                }
+            },
+            removeTodo: function (index) {
+                this.todos.splice(index, 1);
+            }
+
+        }
+    })
+</script>
+<div id="example-1">
+    hello {{name}}
+</div>
+<script>
+    var exampleData = {
+        name: 'vue'
+    }
+
+    var exampleVue = new Vue({
+        el: '#example-1',
+        data: exampleData
+    })
+</script>
+<div id="example-2">
+    <p v-if="greeting">hello</p>
+</div>
+<script>
+    var exampleVue2 = new Vue({
+        el:'#example-2',
+        data:{
+            greeting:true
+        }
+    })
+</script>
+</body>
+</html>
