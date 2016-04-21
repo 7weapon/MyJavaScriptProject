@@ -37,4 +37,36 @@ Object.prototype.clone = function () {
     }
 }
 
+var isString = function (obj) {
+    return Object.prototype.toString.call(obj) === '[object String]';
+}
+
+var isArray = function (obj) {
+    return Object.prototype.toString.call(obj) === '[object Array]';
+}
+
+var isNumber = function (obj) {
+    return Object.prototype.toString.call(obj) === '[object Number]';
+}
+
+var isType = function (type) {
+    return function (obj) {
+        return Object.prototype.toString.call(obj) === '[object ' + type + ']';
+    }
+};
+
+var a = 1;
+
+function foo() {
+    console.log(this.a);
+}
+
+
+
+
+
+
+
+
+
 
