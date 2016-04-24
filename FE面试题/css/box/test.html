@@ -10,32 +10,44 @@
         }
 
         .parent {
-            width: 100px;
+            width: 1000px;
         }
 
-        .child {
-            /*
-                标准模式
-            */
+        .child1 {
             box-sizing: content-box;
+            margin-top: 20px;
             margin-left: 20px;
             margin-right: 20px;
             border: 1px solid black;
             padding-left: 10px;
             padding-right: 10px;
+            background-color: #b4b472;
+            width: 200px;
+            height: 50px;
+        }
 
-            line-height: 0;
-            font-size: 0;
+        .child2 {
+            box-sizing: border-box;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border: 1px solid black;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 200px;
+            background-color: #909090;
+            height: 50px;
         }
     </style>
 </head>
 <body>
 <div class="parent">
-    <div class="child"></div>
+    <div class="child1"></div>
+    <div class="child2"></div>
 </div>
-            <script>
-                var child = document.querySelector('.child');
-                console.log(child.clientWidth);
-            </script>
+<script>
+    var child = document.querySelector('.child');
+    console.log(child.clientWidth);
+</script>
 </body>
 </html>
