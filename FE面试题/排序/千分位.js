@@ -36,7 +36,7 @@ function toThousands2(input) {
  * @param input
  */
 function toThousands3(input) {
-    return (input || 0).toString().replace(/(d)(?=(?:d{3})+$)/g, '$1,');
+    return (input || 0).toString().replace(/\B(?=(?:\d{3})+$)/g, ',');
 }
 
 var num = 123456;
