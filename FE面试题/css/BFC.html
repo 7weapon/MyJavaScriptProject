@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>块级格式化上下文</title>
+    <style>
+        body {
+            width: 300px;
+            position: relative;
+        }
+
+        .aside {
+            width: 100px;
+            height: 150px;
+            float: left;
+            background: #f66;
+        }
+
+        .main {
+            height: 200px;
+            background: #fcc;
+            overflow: hidden;
+        }
+
+        .per {
+            border: 5px solid #fcc;
+            width: 300px;
+            overflow: hidden;
+        }
+
+        .child {
+            border: 5px solid #f66;
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+        .p-txt {
+            margin: 100px;
+            color: #f55;
+            background: #fcc;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        .wrap {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<h4>自适应两栏布局</h4>
+<div class="aside"></div>
+<div class="main"></div>
+<h4>清除内部浮动</h4>
+<div class="per">
+    <div class="child"></div>
+    <div class="child"></div>
+</div>
+<h4>防止marign重叠</h4>
+<p class="p-txt">haha</p>
+<div class="wrap">
+    <p class="p-txt">hehe</p>
+</div>
+</body>
+</html>
