@@ -56,21 +56,22 @@
     console.log(result);
 </script>
 <script>
-    function quickSort(array){
-        function sort(prev, numsize){
+    function quickSort(array) {
+        function sort(prev, numsize) {
             var nonius = prev;
-            var j = numsize -1;
+            var j = numsize - 1;
             var flag = array[prev];
             if ((numsize - prev) > 1) {
-                while(nonius < j){
-                    for(; nonius < j; j--){
+                while (nonius < j) {
+                    for (; nonius < j; j--) {
                         if (array[j] < flag) {
                             array[nonius++] = array[j];　//a[i] = a[j]; i += 1;
                             break;
-                        };
+                        }
+                        ;
                     }
-                    for( ; nonius < j; nonius++){
-                        if (array[nonius] > flag){
+                    for (; nonius < j; nonius++) {
+                        if (array[nonius] > flag) {
                             array[j--] = array[nonius];
                             break;
                         }
@@ -81,11 +82,42 @@
                 sort(nonius + 1, numsize);
             }
         }
+
         sort(0, array.length);
         return array;
     }
 
-    console.log(quickSort([2,1,9,3,8]));
+    console.log(quickSort([2, 1, 9, 3, 8]));
+</script>
+<script>
+    function quickSort1(array) {
+        var sort = function (prev, len) {
+            var nonius = prev,           //游标
+                    j = len - 1,
+                    flag = array[nonius];//key值
+            while ((j - nonius) > 1) {
+                for (; nonius < j; j--) {
+                    if (array[j] < flag) {
+                        array[nonius++] = array[j]
+                        break;
+                    }
+                }
+
+                for (; nonius < j; nonius++) {
+                    if (array[nonius] > flag) {
+                        array[j--] = array[nonius];
+                        break;
+                    }
+                }
+                array[nonius] = flag;
+                sort(0, nonius);
+                sort(nonius + 1, len);
+            }
+        }
+        sort(0, array.length);
+        return array;
+    }
+    console.log('quickSort1',quickSort1([9,2,6,4,7,1]));
 </script>
 <body>
 
