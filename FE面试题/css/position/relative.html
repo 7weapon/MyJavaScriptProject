@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relative</title>
+    <style>
+        div {
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        strong {
+            background: #808080;
+        }
+
+        em {
+            background: #ffd800;
+        }
+
+        span {
+            background: #b6ff00;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<div style="background: blue">A</div>
+<div style="background: red;position: relative;top:20px;left: 20px;">B</div>
+<div style="background-color: green">C</div>
+<p><strong>strong</strong><em>em</em><span>span</span></p>
+</body>
+</html>
