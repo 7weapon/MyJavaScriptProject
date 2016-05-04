@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./mustache.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <script id="template" type="x-tmpl-mustache">
+           {{#stooges}}
+            <p>hello {{name}}<p>
+           {{/stooges}}
+           {{^nothing}}
+           没找到 nothing 键名就会渲染这段
+           {{/nothing}}
+
+           {{#address}}
+            <p>{{{street}}}<p>
+           {{/address}}
+    </script>
+</div>
+</body>
+<script>
+    var data = {
+        "company": "Apple",
+        "address": {
+            "street": "1 Infinite Loop Cupertino</br>",
+            "city": "California ",
+            "state": "CA ",
+            "zip": "95014 "
+        },
+        "product": ["Macbook ", "iPhone ", "iPod ", "iPad "],
+        "stooges": [
+            {"name": "Moe"},
+            {"name": "Larry"},
+            {"name": "Curly"}]
+    }
+    var tpl = $('#template').html();
+    var html = Mustache.render(tpl, data);
+    $('#wrap').append(html);
+</script>
+</html>

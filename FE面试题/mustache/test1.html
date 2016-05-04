@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./mustache.js"></script>
+    <script>
+        function loadUser() {
+            var templete = $('#template').html();
+            Mustache.parse(template);
+            var rendered = Mustache.render(templete, {name: 'kk'});
+            $('#target').html(rendered);
+        }
+
+    </script>
+</head>
+<body onload="loadUser()">
+<div id="target">Loading...</div>
+<script id="template" type="x-tmpl-mustache">
+Hello {{ name }}!
+</script>
+</body>
+
+</html>
