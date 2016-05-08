@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>评论系统</title>
+    <style>
+        ul li {
+            list-style: none;
+            margin: 20px auto;
+        }
+
+        ul li i {
+            cursor: pointer;
+        }
+
+        .disabled {
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+<div id="vueInstance">
+    <div class="container">
+        <ul>
+            <!--显示评论列表-->
+            <post v-for="post in posts" :post="post"></post>
+        </ul>
+        <div id="commentBox">
+            输入评论内容并提交：
+            <input type="text" v-model="comment" @keyup.enter="postComment">
+            <button @click="postComment">提交评论</button>
+        </div>
+    </div>
+</div>
+<template id="tplPost">
+    <li>
+        <i class="up" @click="upvote" :class="{disabled:upvoted}">顶一个</i>
+        <span>票数：{{votes}}</span>
+        <i class="down" @click="downvote" :class="{disabled:downvoted}">踩一脚</i>
+        <a href=" ###">话题：{{post.title}}</a>
+    </li>
+</template>
+</body>
+<script src="vue.js"></script>
+<script>
+    Vue.component('post', {
+        template: '#tplPost',
+        props: ['post'],
+        data: function () {  //作为一个函数值返回，每个组件都要设置一个是否投票的状态
+            return {
+                upvoted: false,
+                downvoted: false
+            }
+        },
+        methods: {
+            upvote: function () {
+                this.upvoted = !this.upvoted;
+                this.downvoted = false;
+            },
+            downvote: function () {
+                this.downvoted = !this.downvoted;
+                this.upvoted = false;
+            }
+
+        },
+        computed: {
+            votes: function () {
+                if (this.upvoted) {
+                    return this.post.votes + 1;
+                } else if (this.downvoted) {
+                    return this.post.votes - 1;
+                } else {
+                    return this.post.votes;
+                }
+            }
+        }
+    })
+
+    var vm = new Vue({
+        el: '#vueInstance',
+        data: {
+            posts: [{
+                title: '请大大多多为我投票，我给大家发红包',
+                votes: 15
+            }, {
+                title: '投我准没错',
+                votes: 53
+            }, {
+                title: '不要投给我楼上的',
+                votes: 10
+            }],
+            comment: null
+        },
+        methods: {
+            postComment: function () {
+                if (this.comment) {
+                    this.posts.push(
+                            {
+                                title: this.comment,
+                                votes: 0
+                            }
+                    )
+                } else {
+                    alert('请输入内容');
+                }
+
+            }
+        }
+    })
+
+
+</script>
+</html>
