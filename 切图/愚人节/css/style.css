@@ -223,3 +223,52 @@ input[type="submit"] {
     height:56px;
     line-height:56px;
 }
+
+.animated{
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.rotateInDownLeft {
+    -webkit-animation-name: rotateInDownLeft;
+    animation-name: rotateInDownLeft;
+    -webkit-animation-delay:1s;
+    animation-delay:.5s;
+    animation-timing-function:ease-out
+}
+
+@keyframes rotateInDownLeft {
+    from{
+         transform-origin: left bottom;
+        transform: rotate3d(0,0,1,-45deg);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rotateInDownLeft {
+    from{
+        transform-origin: left bottom;
+        transform: rotate3d(0,0,1,-45deg);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
