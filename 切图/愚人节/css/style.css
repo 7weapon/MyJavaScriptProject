@@ -213,40 +213,38 @@ input[type="submit"] {
     border-radius: 10px;
 }
 
-.start-btn{
-    top:812px;
-    font-size:30px;
+.start-btn {
+    top: 812px;
+    font-size: 30px;
 }
 
-.start-btn a{
-    width:286px;
-    height:56px;
-    line-height:56px;
+.start-btn a {
+    width: 286px;
+    height: 56px;
+    line-height: 56px;
 }
 
-.animated{
+.animated {
     -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 
 .rotateInDownLeft {
     -webkit-animation-name: rotateInDownLeft;
     animation-name: rotateInDownLeft;
-    -webkit-animation-delay:1s;
-    animation-delay:.5s;
-    animation-timing-function:ease-out
+    -webkit-animation-delay: 1s;
+    animation-delay: .5s;
+    animation-timing-function: ease-out
 }
 
 @keyframes rotateInDownLeft {
-    from{
-         transform-origin: left bottom;
-        transform: rotate3d(0,0,1,-45deg);
+    from {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        transform: rotate3d(0, 0, 1, -45deg);
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
         opacity: 0;
     }
     to {
@@ -259,9 +257,9 @@ input[type="submit"] {
 }
 
 @-webkit-keyframes rotateInDownLeft {
-    from{
+    from {
         transform-origin: left bottom;
-        transform: rotate3d(0,0,1,-45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
         opacity: 0;
     }
     to {
@@ -271,4 +269,85 @@ input[type="submit"] {
         transform: none;
         opacity: 1;
     }
+}
+
+.rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+}
+
+@keyframes rubberBand {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(.95, 1.1, 1);
+        transform: scale3d(.95, 1.1, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.1, .95, 1);
+        transform: scale3d(1.1, .95, 1);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+}
+
+@-webkit-keyframes rubberBand {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(.95, 1.1, 1);
+        transform: scale3d(.95, 1.1, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.1, .95, 1);
+        transform: scale3d(1.1, .95, 1);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
 }
