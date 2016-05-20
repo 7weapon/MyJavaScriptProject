@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Absolute</title>
@@ -9,16 +10,17 @@
         }
     </style>
 </head>
+
 <body style="background: yellow;">
-<div style=" width:400px ; background: #fff;">
-    A
-    <div style="width: 300px;background: #81b6ff;position: absolute">
-        A - 1
-        <div style=" width: 200px; background: #b6ff00;position: absolute;">
-            A - 2
+    <div style=" width:400px ; background: #fff;position: relative;">
+        A
+        <div id="div2" style="width: 100%;background: #81b6ff;position: absolute">
+            A - 1
+            <div style=" width: 200px; background: #b6ff00;position: absolute;">
+                A - 2
+            </div>
         </div>
     </div>
-</div>
 </body>
 
 </html>
