@@ -50,7 +50,7 @@
                 for (var i = 0, len = fs.length; i < len; i++) {
                     var fr = new FileReader();
                     var file = fs[i];
-                    console.log(file.type);
+                    console.log(file);
                     if (file.type.indexOf('image') >= 0) {
                         fr.readAsDataURL(file);
                         fr.onload = function () {

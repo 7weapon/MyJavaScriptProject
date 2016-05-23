@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main {
+            float: left;
+            width: 100%;
+            background-color: #ffffff;
+        }
+
+        .sub {
+            float: left;
+            width: 190px;
+            margin-left: -100%;
+            background-color: #61e4f7;
+            position: relative;
+            left: -190px;
+        }
+
+        .extra {
+            float: left;
+            width: 230px;
+            margin-left: -230px;
+            background-color: #b4b472;
+            position: relative;
+            right: -230px;
+        }
+
+        #bd {
+            padding: 0 230px 0 190px;
+        }
+    </style>
+</head>
+<body>
+<div id="page">
+    <div id="hd"></div>
+    <div id="bd">
+        <div class="main">通过简单的负边距，已经让sub和extra定位到正确的位置</div>
+        <div class="sub">通过简单的负边距，已经让sub和extra定位到正确的位置</div>
+        <div class="extra">通过简单的负边距，已经让sub和extra定位到正确的位置</div>
+    </div>
+    <div id="ft"></div>
+</div>
+</body>
+</html>
