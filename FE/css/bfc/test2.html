@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>不和浮动元素重叠</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            color: #fff;
+            text-decoration: none;
+            list-style: none;
+            font-family: "微软雅黑"
+        }
+
+        .aside {
+            background: #f00;
+            width: 170px;
+            float: left;
+            height: 300px;
+        }
+
+        .main {
+            background: #090;
+            height: 100%;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+<div class="aside">
+</div>
+<div class="main">
+</div>
+</body>
+</html>

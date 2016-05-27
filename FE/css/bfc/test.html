@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BFC</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #red, #yellow, #green, #orange {
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        #green {
+            background-color: green;
+        }
+
+        #orange {
+            background-color: orange;
+        }
+
+        #c1,#c2{
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+<div id="c1">
+    <div id="red"></div>
+    <div id="yellow"></div>
+</div>
+<div id="c2">
+    <div id="orange"></div>
+    <div id="green"></div>
+</div>
+<p>Here is the text!</p>
+</body>
+</html>
