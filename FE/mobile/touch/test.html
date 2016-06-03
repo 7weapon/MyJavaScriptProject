@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>touch对象的思考</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg {
+            background: #b4b472;
+            width: 400px;
+            height: 400px;
+            margin: 20px auto;
+            border: 1px solid #3f3f3f;
+        }
+    </style>
+</head>
+<body>
+<div class="bg"></div>
+<script>
+    var bg = document.querySelector('.bg');
+    bg.addEventListener('touchstart', function (e) {
+        var touch = e.touches[0];
+        console.log(touch);
+    })
+</script>
+</body>
+</html>
