@@ -9,6 +9,7 @@ const user = {
     phone: '18515659527'
 }
 
-const {name,age} = user;
+const {name, age} = user;
 
 console.log(name, age);
+

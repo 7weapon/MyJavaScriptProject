@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择符</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            width: 60%;
+            margin: 10px auto;
+        }
+
+        nav {
+            width: 100%;
+            display: table;
+        }
+
+        nav ul {
+            width:100%;
+            display: table-row;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: table-cell;
+        }
+
+        nav ul li:nth-child(2n+1) {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>选项1</li>
+            <li>选项2</li>
+            <li>选项3</li>
+        </ul>
+    </nav>
+</header>
+
+
+</body>
+</html>
