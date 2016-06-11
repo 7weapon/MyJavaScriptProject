@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zoom</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .zoomPic {
+            margin: 30px;
+            width: 300px;
+            height: 180px;
+            background-color: blue;
+            background-image: url(./bg.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: 300px 180px;
+            -webkit-transition: all 2.5s ease-in-out;
+            transition: all 2.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+<div class="zoomPic"></div>
+<button id="zoom">Zoom</button>
+<button id="pause">Pause</button>
+<button id="zoomOut">Zoom Out</button>
+<script>
+    var zoomPic = document.querySelector('.zoomPic'),
+            zoomOriginSize = window.getComputedStyle(zoomPic).getPropertyValue('background-size'),
+            zoomBigSize = '1200px 720px';
+
+    var zoomBtn = document.querySelector('#zoom') ,
+            pauseBtn = document.querySelector('#pause'),
+            zoomOutBtn = document.querySelector('#zoomOut') ;
+
+    zoomBtn.onclick = function(){
+        if(!zoomPic.classList.contains('zoom'))
+        {
+            zoomPic.classList.add('zoom')
+        }
+        zoomPic.style.backgroundSize = zoomBigSize;
+    }
+
+    pauseBtn.onclick = function(){
+        var computeStyle = window.getComputedStyle(zoomPic),
+                bgSize = computeStyle.getPropertyValue('background-size');
+        zoomPic.style.backgroundSize = bgSize;
+        zoomPic.classList.remove('zoom');
+    }
+
+    zoomOutBtn.onclick = function(){
+        zoomPic.classList.remove('zoom');
+        zoomPic.style.backgroundSize = zoomOriginSize;
+    }
+
+</script>
+</body>
+</html>
