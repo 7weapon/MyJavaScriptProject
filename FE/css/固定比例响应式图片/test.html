@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            background:#ccc;
+            position:relative;
+            overflow:hidden;
+            margin: 20px;
+        }
+        .box:after {
+            padding-top: 56.25%;
+            content:"";
+            display: block;
+        }
+        .img {
+            position:absolute;
+            top:0;
+            bottom:0;
+            right:0;
+            left:0;
+            max-width:100%;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+<div class='box'>
+    <img class='img' src='./600.jpg'/>
+</div>
+<div class='box'>
+    <img class='img' src='./800.jpg'/>
+</div>
+<div class='box'>
+    <img class='img' src='./90.jpg'/>
+</div>
+</body>
+</html>
