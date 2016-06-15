@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  .columns {
+    display: flex;
+    .column {
+      display: flex;
+      flex-direction: column;
+      .article {
+        flex: 1;
+        display: flex;
+        flex-direction:column;
+        .article-body {
+          flex:1;
+          display: flex;
+          flex-direction:column;
+          .article-content{
+            flex:1;
+          }
+        }
+      }
+    }
+
+  }
+}
