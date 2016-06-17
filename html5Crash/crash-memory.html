@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内存问题</title>
+    <style>
+        .btn-content{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<script>
+    var Closure = function(){
+        var _cache = [];
+        var cache = 0;
+        var add = function(size){
+            cache += size;
+            size = size * 1024 * 1024;
+            _cache.push(new Array(size).join('x'));
+            refresh();
+        }
+
+        var refresh = function(){
+           document.querySelector('#r').innerText = '内存消耗：'+cache+' M';
+        }
+
+        return{
+            cache:cache + 'M',
+            add:add,
+            refresh :refresh
+        }
+    }
+
+    var closure = Closure();
+</script>
+<body>
+<div class="btn-content">
+    <button onclick="closure.add(1)">增加 1M 内存消耗</button>
+    <button onclick="closure.add(10)">增加 10M 内存消耗</button>
+    <button onclick="closure.add(20)">增加 20M 内存消耗</button>
+    <button onclick="closure.add(50)">增加 50M 内存消耗</button>
+    <button onclick="closure.add(100)">增加 100M 内存消耗</button>
+</div>
+<div id="r">内存消耗：0M</div>
+</body>
+</html>

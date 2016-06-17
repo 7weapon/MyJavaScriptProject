@@ -5,24 +5,26 @@
     <title>Title</title>
     <style>
         .box {
-            background:#ccc;
-            position:relative;
-            overflow:hidden;
+            background: #ccc;
+            position: relative;
+            overflow: hidden;
             margin: 20px;
         }
+
         .box:after {
             padding-top: 56.25%;
-            content:"";
+            content: "";
             display: block;
         }
+
         .img {
-            position:absolute;
-            top:0;
-            bottom:0;
-            right:0;
-            left:0;
-            max-width:100%;
-            margin:auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%,-50%);
+            max-width: 100%;
+            margin: auto;
         }
     </style>
 </head>
