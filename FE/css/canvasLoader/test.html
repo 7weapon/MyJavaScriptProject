@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas" width="300" height="300">
+    <p>不支持canvas</p>
+</canvas>
+</body>
+<script>
+    var cvs = document.querySelector('#canvas'),
+            ctx = cvs.getContext('2d'),
+            percent = 85.0,
+            circleX = cvs.width / 2,
+            circleY = cvs.height / 2,
+            radius = 100,
+            lineWidth = 20,
+            fontSize = 50;
+    /**
+     * 绘制圆形
+     * @param cx  圆形X值
+     * @param cy  圆形Y值
+     * @param r   圆的半径
+     */
+    function circle(cx, cy, r) {
+        ctx.beginPath();
+        ctx.moveTo(cx + r, cy);
+
+        ctx.lineWidth = lineWidth;  //设置线条的宽度
+        ctx.strokeStyle = '#eee';
+        ctx.arc(cx, cy, r, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.stroke();
+    }
+
+    function sector(cx,cy,r,startAngle,endAngle,anti)
+    {
+        ctx.beginPath();
+        ctx.moveTo(cx, cy + r); // 从圆形底部开始画
+        ctx.lineWidth = lineWidth;
+
+        // 渐变色 - 可自定义
+        var linGrad = ctx.createLinearGradient(
+                circleX, circleY - radius - lineWidth, circleX, circleY + radius + lineWidth
+        );
+        linGrad.addColorStop(0.0, '#ec847a');
+        linGrad.addColorStop(0.5, '#9bc4eb');
+        linGrad.addColorStop(1.0, '#eccd23');
+        ctx.strokeStyle = linGrad;
+
+        // 圆弧两端的样式
+        ctx.lineCap = 'round';
+
+        // 圆弧
+        ctx.arc(
+                cx, cy, r,
+                startAngle * (Math.PI / 180.0) + (Math.PI / 2),
+                endAngle * (Math.PI / 180.0) + (Math.PI / 2),
+                anti
+        );
+        ctx.stroke();
+    }
+
+    // 刷新
+    function loading() {
+        if (process >= percent) {
+            clearInterval(circleLoading);
+        }
+
+        // 清除canvas内容
+        ctx.clearRect(0, 0, circleX * 2, circleY * 2);
+
+        // 中间的字
+        ctx.font = fontSize + 'px April';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillStyle = '#999';
+        ctx.fillText(parseFloat(process).toFixed(0) + '%', circleX, circleY);
+
+        // 圆形
+        circle(circleX, circleY, radius);
+
+        // 圆弧
+        sector(circleX, circleY, radius, 0, process / 100 * 360);
+
+        // 控制结束时动画的速度
+        if (process / percent > 0.90) {
+            process += 0.30;
+        } else if (process / percent > 0.80) {
+            process += 0.55;
+        } else if (process / percent > 0.70) {
+            process += 0.75;
+        } else {
+            process += 1.0;
+        }
+    }
+
+    var process = 0.0; // 进度
+    var circleLoading = window.setInterval(function () {
+        loading();
+    }, 20);
+</script>
+</html>
