@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>pageVisibilityChange</title>
+</head>
+<body>
+我是可见的
+</body>
+<script>
+  document.addEventListener('visibilitychange', function (ev) {
+    if (document.hidden) {
+      console.log('App is hidden')
+    } else {
+      console.log('App is visible')
+    }
+  })
+</script>
+</html>

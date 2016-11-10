@@ -8,10 +8,10 @@
 <div id="page">
     <div id="header">
         <ul id="nav">
-            <li><a href="#">测试1</a></li>
-            <li><a href="#">测试2</a></li>
-            <li><a href="#">测试3</a></li>
-            <li><a href="#">测试4</a></li>
+            <li><a data-name="testName1" href="#">测试1</a></li>
+            <li><a data-name="testName2" href="#">测试2</a></li>
+            <li><a data-name="testName3" href="#">测试3</a></li>
+            <li><a data-name="testName4" href="#">测试4</a></li>
         </ul>
     </div>
     <div id="content">
@@ -23,4 +23,12 @@
 </div>
 
 </body>
+<script>
+    document.body.addEventListener('click',function(ev){
+        var node = ev.target;
+        if(node.tagName.toLowerCase() === 'a'){
+            console.log(node.attributes.getNamedItem('data-name').nodeValue);
+        }
+    })
+</script>
 </html>
