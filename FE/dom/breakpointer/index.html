@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chrome断点调试</title>
+    <style>
+        .content {
+            width: 500px;
+            height: 500px;
+            background-color: #60768D;
+            margin: 20px auto;
+        }
+
+        .active {
+            color: #d8210d;
+        }
+
+        span {
+            text-align: center;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+<div class="content"></div>
+<button id="btnAdd">添加</button>
+<button id="btnChange">改变属性</button>
+<button id="btnRemove">移除</button>
+</body>
+<script>
+    var btnAdd = document.querySelector('#btnAdd'),
+            btnChange = document.querySelector('#btnChange'),
+            btnRemove = document.querySelector('#btnRemove'),
+            content = document.querySelector('.content');
+    btnAdd.onclick = function(ev){
+        var span = document.createElement('span');
+        var txtNode = document.createTextNode('测试花湖');
+        span.appendChild(txtNode);
+        content.appendChild(span);
+    }
+    btnChange.onclick = function(ev){
+       content.classList.add('active');
+    }
+    btnRemove.onclick = function(ev){
+       content.remove();
+    }
+</script>
+</html>
