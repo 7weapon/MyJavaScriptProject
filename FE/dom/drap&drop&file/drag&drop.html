@@ -1,70 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>托拉拽</title>
-    <style>
-        #div1 {
-            margin: 0 auto;
-            width: 200px;
-            height: 200px;
-            background-color: #ccc;
-            color: white;
-        }
+  <meta charset="UTF-8">
+  <title>托拉拽</title>
+  <style>
+    #div1 {
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+      background-color: #ccc;
+      color: white;
+    }
 
-        #ul1 {
-            position: relative;
-            top: 90px;
-            left: 50px;
-        }
+    #ul1 {
+      position: relative;
+      top: 90px;
+      left: 50px;
+    }
 
-        li {
-            width: 200px;
-            height: 200px;
-            margin: 5px;
-            float: left;
-            list-style: none;
-        }
+    li {
+      width: 200px;
+      height: 200px;
+      margin: 5px;
+      float: left;
+      list-style: none;
+    }
 
-        li img {
-            width: 500px;
-            height: auto
+    li img {
+      width: 500px;
+      height: auto
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      var oDiv = document.querySelector('#div1');
+      var oUl = document.querySelector('#ul1');
+      oDiv.ondragenter = function () {
+        this.innerHTML = '可以释放了';
+      }
+      oDiv.ondragover = function (ev) {
+        ev.preventDefault();
+      }
+      oDiv.ondragleave = function () {
+        this.innerHTML = '请将文件拖拽到此区域';
+      }
+      oDiv.ondrop = function (ev) {
+        ev.preventDefault();
+        var fs = ev.dataTransfer.files;
+        for (var i = 0, len = fs.length; i < len; i++) {
+          var fr = new FileReader();
+          var file = fs[i];
+          console.log(file);
+          if (file.type.indexOf('image') >= 0) {
+            fr.readAsDataURL(file);
+            fr.onload = function () {
+              var oLi = document.createElement('li');
+              var oImg = document.createElement('img');
+              oImg.src = this.result;
+              console.log(this.result);
+              oLi.appendChild(oImg);
+              oUl.appendChild(oLi);
+            }
+          }
         }
-    </style>
-    <script>
-        window.onload = function () {
-            var oDiv = document.querySelector('#div1');
-            var oUl = document.querySelector('#ul1');
-            oDiv.ondragenter = function () {
-                this.innerHTML = '可以释放了';
-            }
-            oDiv.ondragover = function (ev) {
-                ev.preventDefault();
-            }
-            oDiv.ondragleave = function () {
-                this.innerHTML = '请将文件拖拽到此区域';
-            }
-            oDiv.ondrop = function (ev) {
-                ev.preventDefault();
-                var fs = ev.dataTransfer.files;
-                for (var i = 0, len = fs.length; i < len; i++) {
-                    var fr = new FileReader();
-                    var file = fs[i];
-                    console.log(file);
-                    if (file.type.indexOf('image') >= 0) {
-                        fr.readAsDataURL(file);
-                        fr.onload = function () {
-                            var oLi = document.createElement('li');
-                            var oImg = document.createElement('img');
-                            oImg.src = this.result;
-                            oLi.appendChild(oImg);
-                            oUl.appendChild(oLi);
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+      }
+    }
+
+    !function (src) {
+      var img = new Image();
+      img.src = src;
+      img.onload = function () {
+
+      }
+    }("https://ws-s.zuoyebang.cc/static/yingyongbao/gift0709.PNG")
+  </script>
 </head>
 <body>
 <div id="div1"><p>请拖拽到此区域</p></div>

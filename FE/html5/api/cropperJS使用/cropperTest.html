@@ -14,7 +14,7 @@
             originFileName = file.name;
             var URL = window.URL || window.webkitURL, originPhotoURL;
             originPhotoURL = URL.createObjectURL(file); //base64
-//            console.log(originPhotoURL);
+            console.log(originPhotoURL);
             $('#preview').cropper({
                 aspectRatio: 1 / 1,
             }).cropper('replace', originPhotoURL);
