@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>12</title>
+  <style>
+    #cvs{
+      border:1px solid #000;
+    }
+  </style>
+</head>
+<body>
+<canvas id="cvs" width="150" height="150"></canvas>
+</body>
+<script>
+  var cvs = document.querySelector('#cvs');
+  var ctx = cvs.getContext('2d');
+
+  ctx.beginPath();
+  ctx.arc(75,75,30,0,2 * Math.PI,false);
+  ctx.fill();
+  ctx.addHitRegion({id:'circle'});
+
+  cvs.addEventListener('mousemove',function(ev){
+    if(ev.region){
+      alert('hit region: '+ev.region);
+    }
+  })
+</script>
+</html>

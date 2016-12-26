@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>6</title>
+  <style>
+    #cvs2, #cvs {
+      margin-left: 30px;
+      border: 1px solid #333
+    }
+  </style>
+</head>
+<body>
+<canvas id="cvs" width="150" height="150">
+  your browser not support
+</canvas>
+<canvas id="cvs2" width="150" height="150">
+  your browser not support
+</canvas>
+</body>
+<script>
+  ~function () {
+    var cvs = document.querySelector('#cvs');
+    var cvs2 = document.querySelector('#cvs2');
+    if (cvs.getContext) {
+      var ctx = cvs.getContext('2d');
+      var ctx2 = cvs2.getContext('2d');
+      for (var i = 0; i < 6; i++) {
+        for (var j = 0; j < 6; j++) {
+          ctx.fillStyle = 'rgb(' + Math.floor(255 - 42.5 * i) + ',' + Math.floor(255 - 42.5 * j) + ',0)';
+          ctx.fillRect(25 * j, 25 * i, 25, 25);
+          ctx2.strokeStyle = 'rgb(0,' + Math.floor(255 - 42.5 * i) + ',' +
+            Math.floor(255 - 42.5 * j) + ')';
+          ctx2.beginPath();
+          ctx2.arc(12.5 + j * 25, 12.5 + i * 25, 10, 0, Math.PI * 2, true);
+          ctx2.stroke();
+        }
+      }
+    }
+
+  }()
+</script>
+</html>

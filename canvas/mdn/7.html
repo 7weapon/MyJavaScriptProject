@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>7</title>
+  <style>
+    #cvs {
+      border: 1px solid #333
+    }
+  </style>
+</head>
+<body>
+<canvas id="cvs" width="150" height="150">
+  your browser not support
+</canvas>
+</body>
+<script>
+  ~function () {
+    var cvs = document.querySelector('#cvs');
+    if (cvs.getContext) {
+      var ctx = cvs.getContext('2d');
+      // 画背景
+      ctx.fillStyle = '#FD0';
+      ctx.fillRect(0, 0, 75, 75);
+      ctx.fillStyle = '#6C0';
+      ctx.fillRect(75, 0, 75, 75);
+      ctx.fillStyle = '#09F';
+      ctx.fillRect(0, 75, 75, 75);
+      ctx.fillStyle = '#F30';
+      ctx.fillRect(75, 75, 75, 75);
+
+      ctx.fillStyle = '#FFF';
+      ctx.globalAlpha = 0.2;
+      for (var i = 0; i < 7; i++) {
+        ctx.beginPath();
+        ctx.arc(75, 75, 10 + 10 * i, 0, Math.PI * 2, true);
+        ctx.fill();
+      }
+      ctx.beginPath();
+      ctx.fillStyle = '#333';
+      ctx.font = "12px serif";
+      ctx.fillText('hello world',0,70)
+    }
+  }();
+</script>
+</html>

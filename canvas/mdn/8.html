@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>8</title>
+  <style>
+    #cvs {
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+<canvas id="cvs" width="150" height="150">
+  your browser not support
+</canvas>
+</body>
+<script>
+  ~function () {
+    var cvs = document.querySelector('#cvs');
+    if (cvs.getContext) {
+      var ctx = cvs.getContext('2d');
+      ctx.fillRect(0, 0, 150, 150);
+      ctx.save();
+
+      ctx.fillStyle = '#09f';
+      ctx.fillRect(15, 15, 120, 120);
+
+      ctx.save();
+      ctx.fillStyle = '#fff';
+      ctx.globalAlpha = 0.5;
+      ctx.fillRect(30, 30, 90, 90);
+
+      ctx.restore();
+      ctx.fillRect(45, 45, 60, 60);
+
+      ctx.restore();
+      ctx.fillRect(60, 60, 30, 30);
+    }
+
+  }();
+</script>
+</html>

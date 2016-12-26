@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3</title>
+  <style>
+    #cvs {
+      border: 1px solid #333
+    }
+  </style>
+</head>
+<body>
+<canvas id="cvs" width="150" height="150">
+  your browser not support
+</canvas>
+</body>
+<script>
+  ~function () {
+    var cvs = document.querySelector('#cvs');
+    if (cvs.getContext) {
+      var ctx = cvs.getContext('2d');
+      ctx.beginPath();
+      ctx.arc(75, 75, 50, 0, Math.PI * 2, true); //逆时针
+      ctx.moveTo(105,75);
+      ctx.arc(75, 75, 30, 0, Math.PI, false); //顺时针
+      ctx.moveTo(70,60);
+      ctx.arc(65,65,5,0,Math.PI * 2,true);
+      ctx.moveTo(90,60);
+      ctx.arc(85,65,5,0,Math.PI * 2,true);
+      ctx.stroke();
+    }
+  }()
+</script>
+</html>

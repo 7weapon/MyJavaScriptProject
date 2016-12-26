@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02</title>
+  <style>
+    #cvs {
+      border: 1px solid #333
+    }
+  </style>
+</head>
+<body>
+<canvas id="cvs" width="150" height="150">
+  your browser not support
+</canvas>
+</body>
+<script>
+  ~function () {
+    var cvs = document.querySelector('#cvs');
+    if (cvs.getContext) {
+      var ctx = cvs.getContext('2d');
+      ctx.beginPath();
+      ctx.moveTo(50, 75);
+      ctx.lineTo(100, 30);
+      ctx.lineTo(100, 120);
+      ctx.fill();
+    }
+  }();
+</script>
+</html>
