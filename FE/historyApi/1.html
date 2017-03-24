@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>1</title>
+  <script src="zepto.js"></script>
+</head>
+<body>
+<div> we will change the world</div>
+<a id="btn" href="javascript:;">Click</a>
+</body>
+<script>
+  window.onpopstate = function (ev) {
+    alert('location: ' + window.location + ', state: ' + JSON.stringify(ev.state))
+    setTimeout(function () {
+      window.location.reload()
+    }, 2000)
+  }
+  $('#btn').on('tap', function () {
+    console.log('hello world')
+  })
+</script>
+</html>

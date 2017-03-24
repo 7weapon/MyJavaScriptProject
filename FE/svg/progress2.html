@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width,height=device-height,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet/less" href="./progress2.less">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+</head>
+<body>
+<div class="donut">
+  <svg width="240" height="240" xmlns="http://www.w3.org/2000/svg" class="donut__svg">
+    <circle id="donut-graph-x" class="donut__svg__scrim" r="90" cy="120" cx="120" stroke-width="3" stroke="#333"
+            fill="none"/>
+    <circle id="donut-graph" class="donut__svg__circle--one" r="90" cy="120" cx="120" stroke-width="4"
+            stroke="url(#purple)" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <defs>
+      <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#7a5bcf"/>
+        <stop offset="100%" stop-color="#8A6FD5"/>
+      </linearGradient>
+    </defs>
+  </svg>
+  <div class="donut__copy">
+    <span class="donut__title">82<span class="donut__spic">%</span></span>
+  </div>
+</div>
+
+</body>
+</html>

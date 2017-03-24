@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>线段围绕盒子运动</title>
+  <style>
+    .box {
+      margin: 50px auto;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      background-color: #fb3;
+    }
+
+    .box .line {
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      left: -10px;
+      top: -10px;
+      border: 2px solid #58a;
+      box-sizing: border-box;
+      animation: move 5s linear infinite;
+      -webkit-animation: move 5s linear infinite;
+    }
+
+    @keyframes move {
+      0%, 100% {
+        clip: rect(0 220px 2px 0);
+      }
+      25% {
+        clip: rect(0 220px 220px 218px);
+      }
+      50% {
+        clip: rect(218px 220px 220px 0);
+      }
+      75% {
+        clip: rect(0 2px 220px 0);
+      }
+    }
+
+    @-webkit-keyframes move {
+      0%, 100% {
+        clip: rect(0 220px 2px 0);
+      }
+      25% {
+        clip: rect(0 220px 220px 218px);
+      }
+      50% {
+        clip: rect(218px 220px 220px 0);
+      }
+      75% {
+        clip: rect(0 2px 220px 0);
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="line"></div>
+</div>
+</body>
+</html>

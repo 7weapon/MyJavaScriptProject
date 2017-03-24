@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>动态饼图</title>
+  <style>
+    .box{
+      position: relative;
+      margin:50px auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: linear-gradient(to right, #58a 50%, #fb3 0);
+    }
+    .box:after{
+      position: absolute;
+      content: "";
+      width: 50%;
+      height: 100%;
+      background-color: #58a;
+      top:0;
+      right:0;
+      transform-origin: left center;
+
+    }
+  </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

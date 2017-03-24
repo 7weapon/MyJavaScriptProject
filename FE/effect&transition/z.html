@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>方框"Z"字形运动</title>
+  <style>
+    .box {
+      position: relative;
+      margin: auto;
+      width: 200px;
+      height: 200px;
+      background-color: #fb3;
+    }
+
+    .box .square {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      background-color: #58a;
+      animation: move 2s linear 0s 5 alternate forwards;
+      -webkit-animation: move 2s linear 0s 5 alternate forwards;
+    }
+
+    @keyframes move {
+      0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+
+      33% {
+        -webkit-transform: translateX(170px);
+        transform: translateX(170px);
+      }
+
+      66% {
+        -webkit-transform: translate(0, 170px);
+        transform: translate(0, 170px);
+      }
+
+      100% {
+        -webkit-transform: translate(170px, 170px);
+        transform: translate(170px, 170px);
+      }
+    }
+
+    @-webkit-keyframes move {
+      0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+
+      33% {
+        -webkit-transform: translateX(170px);
+        transform: translateX(170px);
+      }
+
+      66% {
+        -webkit-transform: translate(0, 170px);
+        transform: translate(0, 170px);
+      }
+
+      100% {
+        -webkit-transform: translate(170px, 170px);
+        transform: translate(170px, 170px);
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="square"></div>
+</div>
+</body>
+</html>
