@@ -3,25 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <title>动态饼图</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0">
   <style>
-    .box{
+    .box {
       position: relative;
-      margin:50px auto;
+      margin: 50px auto;
       width: 200px;
       height: 200px;
       border-radius: 50%;
       background: linear-gradient(to right, #58a 50%, #fb3 0);
+      animation-delay: -7.5s;
+      -webkit-animation-delay: -7.5s;
     }
-    .box:after{
+
+    .box:after {
       position: absolute;
       content: "";
       width: 50%;
       height: 100%;
       background-color: #58a;
-      top:0;
-      right:0;
+      top: 0;
+      right: 0;
       transform-origin: left center;
+      border-radius: 0 100% 100% 0 / 50%;
+      animation: rotate 50s linear infinite, changeColor 100s step-end infinite;
+      animation-delay: inherit;
+      -webkit-animation-delay: inherit;
+      animation-play-state: paused;
+      -webkit-animation-play-state: paused;
+    }
 
+    @keyframes rotate {
+      to {
+        transform: rotate(180deg);
+      }
+    }
+
+    @-webkit-keyframes rotate {
+      to {
+        transform: rotate(180deg);
+      }
+    }
+
+    @keyframes changeColor {
+      50% {
+        background-color: #fb3;
+      }
+    }
+
+    @-webkit-keyframes changeColor {
+      50% {
+        background-color: #fb3;
+      }
     }
   </style>
 </head>
