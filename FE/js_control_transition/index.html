@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .box {
+      margin: 30px;
+      height: 50px;
+      width: 50px;
+      background-color: blue;
+    }
+
+    .box.horizTanslate {
+      transition: 3s;
+      -webkit-transition: 3s;
+      margin-left: 50% !important;
+    }
+
+    .zoomPic {
+      margin: 30px;
+      width: 300px;
+      height: 180px;
+      background-color: blue;
+      background-image: url(-text.png);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: 300px 180px;
+
+      transition: all 2.5s ease-in-out;
+      -webkit-transition: all 2.5s ease-in-out;
+    }
+
+    .zoomPic.zoom {
+      background-size: 1200px 720px !important;
+    }
+  </style>
+</head>
+<body>
+<h3>Pure JavaScript</h3>
+<div class="box"></div>
+<button class="toggleBtn">Play</button>
+<h3>Pure Javascript</h3>
+<div class="zoomPic"></div>
+<button class='zoom'>Zoom</button>
+<button class='pause'>Pause</button>
+<button class='zoomout'>Zoom Out</button>
+
+<script>
+  var box = document.querySelector('.box');
+
+  document.querySelector('.toggleBtn').addEventListener('click', function () {
+    if (this.innerHTML == 'Play') {
+      this.innerHTML = 'Pause';
+      box.classList.add('horizTanslate');
+    } else {
+      this.innerHTML = 'Play';
+      var computedStyle = window.getComputedStyle(box);
+      box.style.marginLeft = computedStyle.getPropertyValue('margin-left');
+      box.classList.remove('horizTanslate');
+    }
+  }, false)
+
+  var pic = document.querySelector('.zoomPic'),
+    originBgSize = window.getComputedStyle(pic).getPropertyValue('background-size');
+
+  document.querySelector('.zoom').addEventListener('click', function () {
+    pic.classList.add('zoom');
+  }, false);
+
+  document.querySelector('.pause').addEventListener('click', function () {
+    pic.style.backgroundSize = window.getComputedStyle(pic).getPropertyValue('background-size');
+    pic.classList.remove('zoom');
+  }, false);
+
+  document.querySelector('.zoomout').addEventListener('click', function () {
+    pic.classList.remove('zoom');
+    pic.style.backgroundSize = originBgSize;
+  }, false);
+
+</script>
+</body>
+</html>
