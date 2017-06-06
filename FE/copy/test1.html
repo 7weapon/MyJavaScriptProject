@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input type="text" id="content">
+<button id="btn">复制</button>
+<script>
+  var btn = document.querySelector('#btn'),
+    content = document.querySelector('#content');
+  btn.addEventListener('click', function (ev) {
+    var range = document.createRange();
+    range.selectNode(content);
+    window.getSelection().addRange(range);
+    var flag = document.execCommand('copy');
+    try {
+      var msg = flag ? 'success' : 'fail';
+      console.log('copy is ' + msg);
+    }
+    catch (err) {
+      console.warn(JSON.stringify(err));
+    }
+
+    window.getSelection().removeAllRanges();
+  }, false);
+
+</script>
+</body>
+</html>

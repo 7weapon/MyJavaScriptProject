@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>input复制</title>
+</head>
+<body>
+<div id="txtContent">
+哈哈哈哈阿萨德环境设sdhjahj
+  sdhjashdjshad
+  sdjahdjhakjsd
+</div>
+<input type="button" id="btnCopy" value="复制">
+<script>
+  var btnCopy = document.querySelector('#btnCopy');
+  btnCopy.addEventListener('click', function (ev) {
+    var aux = document.createElement('input');
+    aux.setAttribute('value', document.querySelector('#txtContent').innerHTML);
+    document.body.appendChild(aux);
+    // text、textarea 可用
+    aux.select();
+
+    window.getSelection().toString();
+    document.execCommand('copy');
+
+    document.body.removeChild(aux);
+  }, false);
+</script>
+</body>
+</html>
