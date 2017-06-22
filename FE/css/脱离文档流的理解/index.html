@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>脱离文档流理解</title>
-    <style>
-        #container{
-            width: 200px;
-            background: cyan;
-            padding:20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>脱离文档流理解</title>
+  <style>
+    #container {
+      width: 200px;
+      background: cyan;
+      padding: 20px;
+      /*float: left;*/
+      /*position: absolute;*/
+    }
+  </style>
 </head>
 <body>
 <div id="container">
-    脱离文档流，也就是将元素从普通的布局排版中拿走，其他盒子在定位的时候，会当做脱离文档流的元素不存在而进行定位
+  脱离文档流，也就是将元素从普通的布局排版中拿走，其他盒子在定位的时候，会当做脱离文档流的元素不存在而进行定位
 </div>
 <h2>脱离文档流理解</h2>
 <p>使用float脱离文档流时，其他盒子会无视这个元素，但其他盒子内的文本依然会为这个元素让出位置，环绕在周围。</p>

@@ -1,7 +1,7 @@
 'use strict';
 
 function thoundFormat(str) {
-  return str.replace(/(?!^)(\d{3})+$/g)
+  return str.replace(/(?!^)(\d{3})+$/g,',')
 }
 
 // 循环拼接字符，每三个字符添加,

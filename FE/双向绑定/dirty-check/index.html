@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>脏数据检查</title>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div class="app">
+  <input type="text" h-model="demo">
+  <p h-text="demo"></p>
+</div>
+<script>
+  new Hue({
+    el: '.app',
+    data: {
+      demo: '哈哈哈'
+    }
+  })
+</script>
+</body>
+</html>
