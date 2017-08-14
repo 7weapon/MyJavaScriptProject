@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>里面元素滚动到底外部容器不滚动实例页面</title>
+  <style>
+    body {
+      height: 1000px;
+      background: green;
+    }
+
+    div {
+      margin: auto;
+      width: 210px;
+      height: 200px;
+      overflow: auto;
+    }
+  </style>
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="./jquery.mousewheel.js"></script>
+</head>
+<body>
+<div>
+  <img src="http://image.zhangxinxu.com/image/study/s/s256/mm2.jpg">
+</div>
+</body>
+<script>
+  $.fn.scrollUnique = function () {
+    return $(this).each(function () {
+      var eventType = 'mousewheel';
+      if (document.mozHidden) {
+        eventType = 'DOMMouseScroll';
+      }
+      $(this).on(eventType, function (ev) {
+        var scrollTop = this.scrollTop,
+          scrollHeight = this.scrollHeight,
+          height = this.clientHeight;
+
+        var delta = (ev.originalEvent.wheelDelta) ? ev.originalEvent.wheelDelta : -(event.originalEvent.detail || 0);
+        if ((delta > 0 && scrollTop <= delta) || (delta < 0 && scrollHeight - height - scrollTop >= delta)) {
+          this.scrollTop = delta > 0 ? 0 : scrollHeight;
+          ev.preventDefault();
+        }
+      })
+    })
+  }
+
+  $('div').scrollUnique();
+</script>
+</html>

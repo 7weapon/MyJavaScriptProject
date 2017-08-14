@@ -13,17 +13,17 @@ var fibonacci = (function () {
         }
         return result;
     }
-    return fib;
+  return fib;
 })();
 
 
 
 
-/*for (var i = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) {
     console.log(i + ' : ' + fibonacci(i));
 }
 
-console.log(count);*/
+console.log(count);
 
 
 var memoizer = function(cache,formula){

@@ -8,7 +8,7 @@
     <script>
         function loadUser() {
             var templete = $('#template').html();
-            Mustache.parse(template);
+            Mustache.parse(templete);
             var rendered = Mustache.render(templete, {name: 'kk'});
             $('#target').html(rendered);
         }
