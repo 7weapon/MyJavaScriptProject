@@ -4,4 +4,4 @@ function cssStyle2DomStyle(sName) {
   }).replace(/^\-?/,'')
 }
 
-// console.info(cssStyle2DomStyle('background-image'))
+console.info(cssStyle2DomStyle('background-image-color'))

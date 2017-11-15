@@ -1,28 +1,44 @@
-/**
- * Created by zybang on 2016/5/30.
- */
+function A() {
+  this.x = 100;
+}
+
+A.prototype.getX = function () {
+  console.log(this.x);
+}
+
+// 原型继承  原型为父类实例化对象 ，继承父类属性和方法，需要在其原型链上追溯 父类实例化对象，在其实例化对象中追溯父类的方法，原型链遍历层数多了一层
+/*function B() {
+  this.y = 200;
+}
+
+B.prototype = new A;
+B.prototype.constructor = B;*/
+
+// 寄生继承   使用call 方法时，执行函数体代码，无法继承父类中的原型
+/*function B() {
+  A.call(this);
+}*/
+
+// 冒充对象继承   颠覆继承的概念，遍历父类的属性和对象，将其填充至子类，子类的原型链无父类原型
 /*
-    构造函数、原型、实例之间的区别
- */
+function B() {
+  var tmp = new A;
+  for (var k in tmp) {
+    this[k] = tmp[k];
+  }
+  tmp = null;
+}
+*/
 
-function Person(name)
-{
-    this.name = name;
+// 寄生组合继承
+function B() {
+  A.call(this);
 }
 
-Person.prototype.getName  = function(){
-    console.log(this.name);
-}
+B.prototype = Object.create(A.prototype);
+B.prototype.constructor = B;
 
-var p = new Person('kk');
+///////////////////////////////////////////////////////////////////////////////////////////
+var b = new B();
 
-//1.构造函数的原型
-console.log(Person.prototype) ;
-
-//2.原型中的构造器
-
-console.log(Person.prototype.constructor);
-
-//3.实例的__proto__ 与 原型是否恒等
-
-console.log(Person.prototype === p.__proto__);
+console.log(b.getX());

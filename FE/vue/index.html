@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+<div id="app">
+  <p>{{number}}</p>
+</div>
+<script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      number: 1
+    },
+    beforeCreate: function () {
+//      console.log('beforeCreate: ' + this.number);
+      console.log('beforeCreate: ' + document.querySelector('p').textContent);
+    },
+    created: function () {
+//      console.log('create: ' + this.number);
+      console.log('create: ' + document.querySelector('p').textContent);
+      var vm = this;
+      setTimeout(() => {
+        vm.number = 100
+        vm.$nextTick(() => {
+          console.log('nextTick', document.getElementsByTagName('p')[0])
+        })
+      },100)
+    },
+    beforeMount: function () {
+//      console.log('beforeMount: ' + this.number);
+      console.log('beforeMount: ' + document.querySelector('p').textContent);
+    },
+    mounted: function () {
+//      console.log('mounted: ' + this.number);
+      console.log('mounted: ' + document.querySelector('p').textContent);
+    }
+  })
+</script>
+</body>
+</html>
