@@ -4,11 +4,32 @@
   <meta charset="UTF-8">
   <title>脏数据检查</title>
   <script type="text/javascript" src="index.js"></script>
+  <style>
+    .share-list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .share-list:before, .share-list:after {
+      content: "";
+    }
+
+    .share-item {
+      width: 60px;
+      height: 60px;
+      background: cyan;
+    }
+  </style>
 </head>
 <body>
 <div class="app">
   <input type="text" h-model="demo">
   <p h-text="demo"></p>
+  <ul class="share-list">
+    <li class="share-item"></li>
+    <li class="share-item"></li>
+    <li class="share-item"></li>
+  </ul>
 </div>
 <script>
   new Hue({

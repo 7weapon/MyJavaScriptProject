@@ -44,12 +44,10 @@ Hue.prototype = {
                 case 'model' :
                   if (document.addEventListener) {
                     el.addEventListener('keydown', function () {
-                      //todo 修改数据
                       _this.digest();
                     }, false);
                   } else {
                     el.attachEvent('onkeydown', function () {
-                      //todo  修改数据
                       _this.digest();
                     })
                   }
