@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>details,summary</title>
+  <style>
+    .details-1 summary {
+      width: fit-content;
+      direction: rtl;
+      outline: 0;
+      user-select: none;
+    }
+
+    .details-1 ::-webkit-details-marker {
+      direction: ltr;
+      color: gray;
+      margin-left: .5ch;
+    }
+
+    .details-2 summary {
+      width: fit-content;
+      direction: rtl;
+    }
+
+    .details-2 summary::before {
+      display: inline-block;
+      content: "";
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-left-color: #6AC5AC;
+      vertical-align: middle;
+      margin-left: 1ch;
+      transition: transform .5s;
+      transform-origin: left center;
+    }
+
+    .details-2[open] summary::before {
+      transform: rotateZ(90deg);
+    }
+
+    .details-2 ::-webkit-details-marker {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<details>
+  <p>这里具体描述，标签相对随意，例如这里使用的&lt;p&gt;标签。</p>
+</details>
+<details class="details-1">
+  <summary tabindex="-1"><a href="javascript:;" onclick="this.parentNode.click()">自定义小三角</a></summary>
+  <content>
+    本案例展示对小三角UI冲定义：包括显示在右侧，颜色减淡等。
+  </content>
+</details>
+<details class="details-2">
+  <summary>隐藏默认三角</summary>
+  <content>
+    用自定义三角
+  </content>
+</details>
+</body>
+</html>

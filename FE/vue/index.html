@@ -16,27 +16,43 @@
       number: 1
     },
     beforeCreate: function () {
-//      console.log('beforeCreate: ' + this.number);
-      console.log('beforeCreate: ' + document.querySelector('p').textContent);
+      console.log('beforeCreate: ', this.$data);
+      console.log('beforeCreate: ', document.querySelector('p'));
     },
     created: function () {
-//      console.log('create: ' + this.number);
-      console.log('create: ' + document.querySelector('p').textContent);
+      console.log('create: ', this.$data);
+      console.log('create: ', document.querySelector('p'));
       var vm = this;
       setTimeout(() => {
         vm.number = 100
         vm.$nextTick(() => {
-          console.log('nextTick', document.getElementsByTagName('p')[0])
+          console.log('nextTick', document.querySelector('p'))
         })
-      },100)
+      }, 100)
     },
     beforeMount: function () {
 //      console.log('beforeMount: ' + this.number);
-      console.log('beforeMount: ' + document.querySelector('p').textContent);
+      console.log('beforeMount: ', document.querySelector('p'));
     },
     mounted: function () {
 //      console.log('mounted: ' + this.number);
-      console.log('mounted: ' + document.querySelector('p').textContent);
+      console.log('mounted: ', document.querySelector('p'));
+    },
+    beforeUpdate: function () {
+      console.log('beforeUpdated: ', this.number)
+      console.log('beforeUpdated: ', document.querySelector('p'))
+    },
+    updated: function () {
+      console.log('updated: ', this.number)
+      console.log('beforeUpdated: ', document.querySelector('p'))
+    },
+    beforeDestroy: function () {
+      console.log('beforeDestory: ', this.number)
+      console.log('beforeDestory: ', document.querySelector('p'))
+    },
+    destroyed: function () {
+      console.log('destroyed: ', this.number)
+      console.log('destroyed: ', document.querySelector('p'))
     }
   })
 </script>

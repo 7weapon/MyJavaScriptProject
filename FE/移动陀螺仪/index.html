@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>移动端陀螺仪测试</title>
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cube {
+      width: 160px;
+      height: 160px;
+      position: relative;
+      transform-style: preserve-3d;
+      transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+    }
+
+    .cube-face {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      box-shadow: inset 0 0 4px 1px #fff;
+      box-sizing: border-box;
+      background: -webkit-linear-gradient(45deg, rgba(156, 144, 144, .6), #000);
+    }
+
+    .cube-front {
+      transform: translateZ(80px);
+    }
+
+    .cube-back {
+      transform: translateZ(-80px);
+    }
+
+    .cube-left {
+      transform: rotateY(90deg) translateZ(-80px);
+    }
+
+    .cube-right {
+      transform: rotateY(90deg) translateZ(80px);
+    }
+
+    .cube-top {
+      -webkit-transform: rotateX(90deg) translateZ(80px);
+      transform: rotateX(90deg) translateZ(80px);
+    }
+
+    .cube-bottom {
+      -webkit-transform: rotateX(90deg) translateZ(-80px);
+      transform: rotateX(90deg) translateZ(-80px);
+    }
+
+    .text {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: red;
+      font-weight: bolder;
+      font-size: 4em;
+    }
+  </style>
+</head>
+<body>
+<div class="cube" id="cube">
+  <em class="text">陈</em>
+  <span class="cube-face cube-front"></span>
+  <span class="cube-face cube-back"></span>
+  <span class="cube-face cube-left"></span>
+  <span class="cube-face cube-right"></span>
+  <span class="cube-face cube-top"></span>
+  <span class="cube-face cube-bottom"></span>
+</div>
+<script>
+  var cube = document.querySelector('#cube');
+  cube.addEventListener('deviceorientation', function (ev) {
+    var pos = {
+      x: ev.beta * 2,
+      y: ev.gamma * 4,
+      z: (ev.alpha - 180) * 2
+    }
+    cube.style = 'transform:rotateX(' + pos.x + 'deg) rotateY(' + pos.y + 'deg) rotateZ(' + pos.z + 'deg)'
+  }, false)
+</script>
+</body>
+</html>
