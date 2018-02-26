@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>编程题</title>
+  <meta name="describe" content="使用原生javascript给下面列表中的li节点绑定点击事件,点击时创建一个Object对象,兼容IE和标准浏览器">
+</head>
+<body>
+<ul id="nav">
+  <li><a href="http://11111">111</a></li>
+  <li><a href="http://2222">222</a></li>
+  <li><a href="http://333">333</a></li>
+  <li><a href="http://444">444</a></li>
+</ul>
+</body>
+<script>
+  const nav = document.querySelector('#nav')
+  nav.addEventListener('click', function (ev) {
+    let target = ev.target
+    for (let i = 0, len = nav.children.length; i < len; i++) {
+      let el = nav.children[i]
+      if (el === target) {
+        console.log({
+          index: i,
+          name: el.textContent,
+          link: el.querySelector('a').getAttribute('href')
+        })
+      }
+    }
+  }, false)
+</script>
+</html>
