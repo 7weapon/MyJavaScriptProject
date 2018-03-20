@@ -3,10 +3,10 @@
  */
 'use strict';
 
-let p = Promise.resolve(3);
+let p = Promise.resolve(3)
+let r = Promise.reject(Error('error'))
 
-Promise.all([true, p]).then(values => {
-        console.log(values);
-    }
-)
-;
+Promise.all([r, true, p]).then(values => {
+    console.log(values);
+  }
+).catch(err => console.log(err))

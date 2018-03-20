@@ -46,5 +46,5 @@ function throttle(func, wait, mustRun) {
 
 throttle(function () {
   console.log(arguments);
-},200,150)(1)
+}, 200, 150)(1)
 

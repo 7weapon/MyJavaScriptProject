@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>对话框</title>
+  <style>
+    dialog {
+      border: none;
+    }
+
+    dialog::backdrop {
+      background: rgba(0, 0, 0, .5)
+    }
+  </style>
+</head>
+<body>
+<dialog id="dialog">
+  <h2>标题</h2>
+  <div>内容</div>
+</dialog>
+</body>
+<script>
+  let dialog = document.querySelector('#dialog')
+  dialog.showModal()
+</script>
+</html>

@@ -1,18 +1,20 @@
 /**
  * Created by chenkai3 on 2015/12/31.
  */
-Function.prototype.bind = function(context) {
-    var self = this;
-    return function(){
-        return self.apply(context,arguments);
-    }
+"use strict";
+
+Function.prototype._bind = function (context) {
+  let self = this
+  return (...args) => {
+    self.apply(context, args)
+  }
 }
 
 var obj = {
-    name:'KK'
+  name: 'KK'
 };
-var func = function(){
-    console.log(this.name)
-}.bind(obj);
+var func = function () {
+  console.log(this.name)
+}._bind(obj);
 
 func();
