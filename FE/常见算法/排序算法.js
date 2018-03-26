@@ -7,7 +7,7 @@
 
 "use strict";
 
-function swap(index1, index2) {
+function swap(index1, index2,arr) {
   let tmp = arr[index2]
   arr[index2] = arr[index1]
   arr[index1] = tmp
@@ -19,22 +19,24 @@ const sortAlgorithm = {
     for (let i = 0, len = arr.length; i < len; i++) {
       for (let j = 0; j < len - 1 - i; j++) {
         if (arr[j] > arr [j + 1]) {
-          swap(j, j + 1)
+          swap(j, j + 1,arr)
         }
       }
     }
+    return arr
   },
   selectionSort(arr) {
     let indexMin
     for (let i = 0, len = arr.length; i < len - 1; i++) {
       indexMin = i
-      for (let j = i; i < len; j++) {
+      for (let j = i; j < len; j++) {
         if (arr[indexMin] > arr[j]) {
           indexMin = j
         }
       }
-      indexMin !== i && ~swap(indexMin, i)
+      indexMin !== i && ~swap(indexMin, i,arr)
     }
+    return arr
   },
   quickSort(arr) {
     function sort(arr) {
@@ -54,3 +56,5 @@ const sortAlgorithm = {
   }
 
 }
+
+console.log(sortAlgorithm.bubbleSort([2,3,1,5,6,4,8]))
