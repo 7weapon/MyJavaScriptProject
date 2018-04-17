@@ -6,21 +6,30 @@
  */
 
 function express() {
-  let tasks = []
-  let tmp = (req, res) => {
-    let i = 0
+    const tasks = []
 
-    function next() {
-      let task = tasks[i++]
-      if (!task) return
-      task(req, res, next)
+    let tmp = (req, res) => {
+        let i = 0
+
+        function next() {
+            let task = tasks[i++]
+            task && ~task(req, res, next)
+        }
+        next()
     }
 
-    next()
-  }
-
-  tmp.use = (fn) => {
-    tasks.push(fn)
-  }
-  return tmp
+    tmp.use = (fn) => {
+        tasks.push(fn)
+    }
+    return tmp
 }
+
+let app = express()
+app.use((req, res, next) => {
+    console.log('func1')
+    next()
+})
+
+app.use((req, res, next) => {
+    console.log('func2')
+})
