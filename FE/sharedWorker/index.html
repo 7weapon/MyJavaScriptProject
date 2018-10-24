@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shared Worker</title>
+</head>
+<body>
+<input id="input" type="text" value="" placeholder="输入...">
+<p id="tips"></p>
+<button onclick="submit()">提交</button>
+</body>
+<script>
+    const subWorker = new SharedWorker('./worker.js');
+    subWorker.port.start();
+    subWorker.port.onmessage = function(ev) {
+        document.querySelector('#tips').innerHTML = ev.data;
+    };
+
+    function submit() {
+        subWorker.port.postMessage(document.querySelector('#input').value);
+    }
+</script>
+</html>
