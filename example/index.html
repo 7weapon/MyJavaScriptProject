@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js调用webservice</title>
+    <script src="https://cdn.staticfile.org/js-polyfills/0.1.42/polyfill.js"></script>
+    <script src="https://libs.cdnjs.net/axios/0.19.0-beta.1/axios.js"></script>
+    <script src="./jsxml.js"></script>
+    <style>
+        .content {
+            margin: 20px;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.3;
+        }
+    </style>
+</head>
+<body>
+<div class="content"></div>
+</body>
+<script>
+    /*
+        webservice 接口必须保证请求的origin可以被允许，即返回头上设置['Access-Control-Allow-Origin'] = 'requestHost'
+     */
+    const instance = axios.create({
+        baseURL: 'http://www.webxml.com.cn/WebServices/WeatherWebService.asmx',
+        timeout: 10000,
+    });
+    /*
+    instance.post('/getWeatherbyCityName', {
+        theCityName: '北京'
+    }).then(res => {
+        console.log(res);
+    });
+    */
+
+    const xmlStr = '<?xml version="1.0" encoding="utf-8"?>\n' +
+        '<ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://WebXml.com.cn/">\n' +
+        '  <string>直辖市</string>\n' +
+        '  <string>北京</string>\n' +
+        '  <string>54511</string>\n' +
+        '  <string>54511.jpg</string>\n' +
+        '  <string>2018/12/15 9:52:15</string>\n' +
+        '  <string>-6℃/2℃</string>\n' +
+        '  <string>12月15日 霾</string>\n' +
+        '  <string>西风转北风小于3级</string>\n' +
+        '  <string>18.gif</string>\n' +
+        '  <string>18.gif</string>\n' +
+        '  <string>今日天气实况：气温：-3℃；风向/风力：东北风 2级；湿度：43%；紫外线强度：最弱。空气质量：很差。</string>\n' +
+        '  <string>紫外线指数：最弱，辐射弱，涂擦SPF8-12防晒护肤品。\n' +
+        '健臻·血糖指数：较易波动，血糖较易波动，注意监测。\n' +
+        '穿衣指数：冷，建议着棉衣加羊毛衫等冬季服装。\n' +
+        '洗车指数：不宜，有雾，会弄脏您的爱车。\n' +
+        '空气污染指数：很差，气象条件不利于空气污染物扩散。\n' +
+        '</string>\n' +
+        '  <string>-5℃/7℃</string>\n' +
+        '  <string>12月16日 晴</string>\n' +
+        '  <string>西南风转北风小于3级</string>\n' +
+        '  <string>0.gif</string>\n' +
+        '  <string>0.gif</string>\n' +
+        '  <string>-4℃/6℃</string>\n' +
+        '  <string>12月17日 晴</string>\n' +
+        '  <string>西南风转北风小于3级</string>\n' +
+        '  <string>0.gif</string>\n' +
+        '  <string>0.gif</string>\n' +
+        '  <string>北京位于华北平原西北边缘，市中心位于北纬39度，东经116度，四周被河北省围着，东南和天津市相接。全市面积一万六千多平方公里，辖12区6县，人口1100余万。北京为暖温带半湿润大陆性季风气候，夏季炎热多雨，冬季寒冷干燥，春、秋短促，年平均气温10-12摄氏度。北京是世界历史文化名城和古都之一。早在七十万年前，北京周口店地区就出现了原始人群部落“北京人”。而北京建城也已有两千多年的历史，最初见于记载的名字为“蓟”。公元前1045年北京成为蓟、燕等诸侯国的都城；公元前221年秦始皇统一中国以来，北京一直是中国北方重镇和地方中心；自公元938年以来，北京又先后成为辽陪都、金上都、元大都、明清国都。1949年10月1日正式定为中华人民共和国首都。北京具有丰富的旅游资源，对外开放的旅游景点达200多处，有世界上最大的皇宫紫禁城、祭天神庙天坛、皇家花园北海、皇家园林颐和园，还有八达岭、慕田峪、司马台长城以及世界上最大的四合院恭王府等各胜古迹。全市共有文物古迹7309项，其中国家文物保护单位42个，市级文物保护单位222个。北京的市树为国槐和侧柏，市花为月季和菊花。另外，北京出产的象牙雕刻、玉器雕刻、景泰蓝、地毯等传统手工艺品驰誉世界。</string>\n' +
+        '</ArrayOfString>';
+
+
+    function resolveXml(xmlStr) {
+        const Namespace = jsxml.Namespace,
+            QName = jsxml.QName,
+            XML = jsxml.XML,
+            XMLList = jsxml.XMLList;
+        // 1. 解析xmlStr，将其转化为xml对象
+        const xml = new XML(xmlStr);
+        // 2. 具体使用方法，跟xpath一样
+        const children = xml.child('string');
+        children.each((item) => {
+            console.log(`${item}\n`)
+        })
+    }
+
+    resolveXml(xmlStr);
+</script>
+</html>
